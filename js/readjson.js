@@ -56,7 +56,7 @@ function constructTable(selector) {
             for (var k = 0; k < keys_step_1.length; k++) {
               var second_key = keys_step_1[i];
               var second_key_id = second_key + "_col";
-              $(selector).append($('<tr data-toggle="collapse" data-target="#' + second_key_id +'" class="accordion-toggle"><td></td></tr>').html(second_key));
+              $(selector).append($('<tr data-toggle="collapse" data-target="#' + second_key_id +'" class="accordion-toggle id="'+key_id+'"><td></td></tr>').html(second_key));
             }
             $(selector).append($('</tr></td></div>'));
           }
