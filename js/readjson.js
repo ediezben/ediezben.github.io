@@ -58,7 +58,7 @@ function constructTable(selector) {
               var second_key_id = second_key + "_col";
               $(selector).append($('<tr data-toggle="collapse" data-target="#' + second_key_id +'" class="accordion-toggle"><td></td></tr>').html(second_key));
             }
-            $(selector).append($('</tr></td></div>');
+            $(selector).append($('</tr></td></div>'));
           }
 
           for (var i = 0; i < list.length; i++) {
