@@ -1,11 +1,13 @@
-function load() {
-  var mydata_str = JSON.parse(data);
-  alert(mydata_str[0]["Process Type"]);
-  alert(mydata_str[1]["Process Name"]);
-}
+// function load() {
+//   var mydata_str = JSON.parse(data);
+//   alert(mydata_str[0]["Process Type"]);
+//   alert(mydata_str[1]["Process Name"]);
+// }
 
 function constructTable(selector) {
           var list = JSON.parse(data);
+          alert(list[0]["Process Type"]);
+          alert(list[1]["Process Name"]);
           // Getting the all column names
           var cols = Headers(list, selector);
 

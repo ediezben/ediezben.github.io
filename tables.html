@@ -26,7 +26,7 @@
     <script type="text/javascript" src="js/readjson.js"></script>
   </head>
 
-<body id="page-top" onload="load()">
+<body id="page-top" onload="constructTable('#table')">
 
     <!-- Page Wrapper -->
     <div id="wrapper">
@@ -369,9 +369,7 @@
                     <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
                         For more information about DataTables, please visit the <a target="_blank"
                             href="https://datatables.net">official DataTables documentation</a>.</p>
-                    <button onclick = "constructTable('#table')">
-                        Click here to see data
-                    </button>
+
 
                     <table align = "center" id="table" border="1">
                     </table>
