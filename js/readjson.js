@@ -35,7 +35,7 @@ function constructTable(selector) {
           var result = [];
           for (var key in json) {
               if (json[key][where] == is || is == '') {
-                  result.push(content[key]);
+                  result.push(json[key]);
               }
           }
           return result;
