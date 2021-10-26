@@ -1,4 +1,4 @@
-﻿[
+﻿data = '[
   {
     "Process Type": "CBP",
     "Process Name": "A. General Management",
@@ -1752,4 +1752,4 @@
   {
     "Process Type": ""
   }
-]
+]';
