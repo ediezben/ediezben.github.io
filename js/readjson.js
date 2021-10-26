@@ -8,6 +8,6 @@ function load() {
                                       .replace(/\\t/g, "\\t")
                                       .replace(/\\b/g, "\\b")
                                       .replace(/\\f/g, "\\f");
-  alert(mydata_str_sc[0]["Process Type"]);
-  alert(mydata_str_sc[1]["Process Name"]);
+  console.error(mydata_str_sc[0]["Process Type"]);
+  console.error(mydata_str_sc[1]["Process Name"]);
 }
