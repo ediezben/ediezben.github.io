@@ -50,7 +50,7 @@ function constructTable(selector) {
             var first_key = keys[i];
             var key_id = first_key + "_col";
             $(selector).append($('<tr data-toggle="collapse" data-target="#' + key_id +'" class="accordion-toggle"><td></td></tr>').html(first_key));
-            var obj_step_1 = searchJSON(list,"Process Name",first_key);
+            var obj_step_1 = searchJSON(list,"Process Type",first_key);
             var keys_step_1 = obj_step_1.map( (value) => value["Process Name"]).filter( (value, index, _arr) => _arr.indexOf(value) == index);
             for (var k = 0; k < keys_step_1.length; k++) {
               var second_key = keys_step_1[i];
