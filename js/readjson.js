@@ -52,13 +52,15 @@ function constructTable(selector) {
             $(selector).append($('<tr data-toggle="collapse" data-target="#' + key_id +'" class="accordion-toggle"><td></td></tr>').html(first_key));
             var obj_step_1 = searchJSON(list,"Process Type",first_key);
             var keys_step_1 = obj_step_1.map( (value) => value["Process Name"]).filter( (value, index, _arr) => _arr.indexOf(value) == index);
+            $(selector).append($('<tr><td colspan="12" class="hiddenRow"><div class="accordian-body collapse" id="'+key_id+'">')
             for (var k = 0; k < keys_step_1.length; k++) {
               var second_key = keys_step_1[i];
               var second_key_id = second_key + "_col";
-              $(selector).append($('<tr data-toggle="collapse" data-target="#' + second_key_id +'" class="accordion-toggle" id="' + key_id + '"><td></td></tr>').html(second_key));
+              $(selector).append($('<tr data-toggle="collapse" data-target="#' + second_key_id +'" class="accordion-toggle"><td></td></tr>').html(second_key));
             }
+            $(selector).append($('</tr></td></div>');
           }
-          
+
           for (var i = 0; i < list.length; i++) {
               var row = list[i];
 
