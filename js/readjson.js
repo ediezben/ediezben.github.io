@@ -34,7 +34,7 @@ function constructTable(selector) {
       function Headers(list, selector) {
           var columns = [];
           var header = $('<tr/>');
-          var keys = keys.map( (value) => value["Process Type"]).filter( (value, index, _arr) => _arr.indexOf(value) == index);
+          var keys = list.map( (value) => value["Process Type"]).filter( (value, index, _arr) => _arr.indexOf(value) == index);
           for (var i = 0; i < keys.length; i++) {
             var first_key = keys[i];
             $(selector).append($('<tr data-toggle="collapse" data-target="#demo1" class="accordion-toggle"><td></td></tr>').html(first_key));
