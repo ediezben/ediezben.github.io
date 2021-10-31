@@ -43,28 +43,75 @@ function constructTable(selector) {
 
       function Headers(list, selector) {
           var columns = [];
-          $(selector).append($('</thead>'));
-          var html_t = $('<tr>');
+          var html_head = '<thead style="color:black;"><tr><th>Select a process type:</th></tr><thead>';
+          $(selector).append(html_head);
+          var html_t = '';
           var keys = list.map( (value) => value["Process Type"]).filter( (value, index, _arr) => _arr.indexOf(value) == index);
-          alert(keys);
+          // alert(keys);
           // Adding first rows for selecting Processes
-          html_t+='<tbody>';
+          html_t+='<tbody style="color:black;">';
           for (var i = 0; i < keys.length; i++) {
             var first_key = keys[i];
             var key_id = "a"+ i + "_col";
-            html_t+='<tr data-toggle="collapse" data-target="#' + key_id +'" class="accordion-toggle"><td>'+first_key+'</td></tr>';
+            html_t+='<tr style="color:black;background-color:#329D9C;text-align:center" data-toggle="collapse" data-target="#' + key_id +'" class="accordion-toggle"><td>'+first_key+'</td></tr>';
             // $(selector).append($('<tr data-toggle="collapse" data-target="#' + key_id +'" class="accordion-toggle"><td></td></tr>').html(first_key));
             var obj_step_1 = searchJSON(list,"Process Type",first_key);
             var keys_step_1 = obj_step_1.map( (value) => value["Process Name"]).filter( (value, index, _arr) => _arr.indexOf(value) == index);
             html_t+='<tr><td colspan="12" class="hiddenRow"><div class="accordian-body collapse" id="'+key_id+'">';
             // $(selector).append($('<tr><td colspan="12" class="hiddenRow"><div class="accordian-body collapse" id="'+key_id+'">'));
-            alert(keys_step_1);
+            // alert(keys_step_1);
             html_t+='<table class="table table-striped">';
+            var html_head_1 = '<thead style="color:black;"><tr><th>Select a process:</th></tr><thead>';
+            html_t += html_head_1;
             for (var k = 0; k < keys_step_1.length; k++) {
               var second_key = keys_step_1[k];
-              var second_key_id = "b" + k + "_col";
-              html_t+='<tr data-toggle="collapse" data-target="#' + second_key_id +'" class="accordion-toggle id="'+key_id+'"><td>'+second_key+'</td></tr>';
+              var second_key_id = key_id + "b" + k + "_col";
+              html_t+='<tr style="color:black;background-color:#56C596;text-align:center" data-toggle="collapse" data-target="#' + second_key_id +'" class="accordion-toggle id="'+key_id+'"><td>'+second_key+'</td></tr>';
               // $(selector).append($('<tr data-toggle="collapse" data-target="#' + second_key_id +'" class="accordion-toggle id="'+key_id+'"><td></td></tr>').html(second_key));
+              var obj_step_2 = searchJSON(list,"Process Name",second_key);
+              var keys_step_2 = obj_step_2.map( (value) => value["Workflow"]).filter( (value, index, _arr) => _arr.indexOf(value) == index);
+              html_t+='<tr><td colspan="12" class="hiddenRow"><div class="accordian-body collapse" id="'+second_key_id+'">';
+              html_t+='<table class="table table-striped">';
+              var html_head_2 = '<thead style="color:black;"><tr><th>Select a workflow</th></tr><thead>';
+              html_t += html_head_2;
+              for (var m = 0; m < keys_step_2.length; m++) {
+                var third_key = keys_step_2[m];
+                var third_key_id = second_key_id + "c" + m + "_col";
+                html_t+='<tr style="color:black;background-color:#7BE495;text-align:center" data-toggle="collapse" data-target="#' + third_key_id +'" class="accordion-toggle id="'+second_key_id+'"><td>'+third_key+'</td></tr>';
+                var obj_step_3 = searchJSON(list,"Workflow",third_key);
+                html_t+='<tr><td colspan="12" class="hiddenRow"><div class="accordian-body collapse" id="'+third_key_id+'">';
+                html_t+='<table class="table table-striped">';
+                html_t+='<thead><tr style="color:black;background-color:#CFF4D2"><th>AI TOOL Description</th><th>AI TOOL</th><th>EFICACY Annual improvement</th><th>Improvement ratio (%)</th><th>EFFICIENCY Annual improvement</th><th>Improvement ratio (%)</th><th>Include on report</></thead>';
+                // alert(obj_step_3)
+                for (var n = 0; n < obj_step_3.length; n++) {
+                    html_t += '<tr>';
+                    var cols = ["AI TOOL description","AI TOOL","EFICACY Annual improvement","Improvement ratio (%)","EFFICIENCY Annual improvement","Improvement ratio (%)"];
+                    for (var colIndex = 0; colIndex < cols.length; colIndex++)
+                    {
+                        var val = obj_step_3[n][cols[colIndex]];
+
+                        // If there is any key, which is matching
+                        // with the column name
+                        if (val == null) val = "";
+                        if(cols[colIndex]=="EFICACY Annual improvement"){
+                          html_t+='<td><input type="text" class="form-control" value="'+val+'" aria-label="Amount (to the nearest Euro)"></div></td>'
+                          // html_t+='<td><input type="number" id="quantity" name="quantity" min="0" max="999999999" value="'+val+'"><td>';
+                        }else if(cols[colIndex]=="EFICIENCY Annual improvement"){
+                          html_t+='<td><input type="number" id="quantity" name="quantity" min="0" max="999999999" value="'+val+'"><td>';
+                        }else{
+                          html_t += '<td>'+val+'</td>';
+                        }
+                    }
+                    html_t +='<td>'+'<div class="form-check"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></label></div>'+'</td>'
+                    html_t +='</tr>';
+                    // Adding each row to the table
+                    // $(selector).append(row);
+                }
+                html_t+='</table>';
+                html_t+='</tr></td></div>';
+              }
+              html_t+='</table>';
+              html_t+='</tr></td></div>';
             }
             html_t+='</table>';
             html_t+='</tr></td></div>';
