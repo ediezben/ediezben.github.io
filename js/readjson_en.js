@@ -53,7 +53,7 @@ function constructTable(selector) {
           for (var i = 0; i < keys.length; i++) {
             var first_key = keys[i];
             var key_id = "a"+ i + "_col";
-            html_t+='<tr style="color:black;background-color:#329D9C;text-align:center" data-toggle="collapse" data-target="#' + key_id +'" class="accordion-toggle"><td>'+first_key+'</td></tr>';
+            html_t+='<tr style="color:black;background-color:rgba(0,106,137,0.5);text-align:center;cursor:pointer" data-toggle="collapse" data-target="#' + key_id +'" class="accordion-toggle"><td>'+first_key+'</td></tr>';
             // $(selector).append($('<tr data-toggle="collapse" data-target="#' + key_id +'" class="accordion-toggle"><td></td></tr>').html(first_key));
             var obj_step_1 = searchJSON(list,"Process Type",first_key);
             var keys_step_1 = obj_step_1.map( (value) => value["Process Name"]).filter( (value, index, _arr) => _arr.indexOf(value) == index);
@@ -66,22 +66,22 @@ function constructTable(selector) {
             for (var k = 0; k < keys_step_1.length; k++) {
               var second_key = keys_step_1[k];
               var second_key_id = key_id + "b" + k + "_col";
-              html_t+='<tr style="color:black;background-color:#56C596;text-align:center" data-toggle="collapse" data-target="#' + second_key_id +'" class="accordion-toggle id="'+key_id+'"><td>'+second_key+'</td></tr>';
+              html_t+='<tr style="color:black;background-color:rgba(54,125,20,0.5);text-align:center;cursor:pointer" data-toggle="collapse" data-target="#' + second_key_id +'" class="accordion-toggle id="'+key_id+'"><td>'+second_key+'</td></tr>';
               // $(selector).append($('<tr data-toggle="collapse" data-target="#' + second_key_id +'" class="accordion-toggle id="'+key_id+'"><td></td></tr>').html(second_key));
               var obj_step_2 = searchJSON(list,"Process Name",second_key);
               var keys_step_2 = obj_step_2.map( (value) => value["Workflow"]).filter( (value, index, _arr) => _arr.indexOf(value) == index);
               html_t+='<tr><td colspan="12" class="hiddenRow"><div class="accordian-body collapse" id="'+second_key_id+'">';
               html_t+='<table class="table table-striped">';
-              var html_head_2 = '<thead style="color:black;"><tr><th>Select a workflow</th></tr><thead>';
+              var html_head_2 = '<thead style="color:black;"><tr><th>Select a workflow:</th></tr><thead>';
               html_t += html_head_2;
               for (var m = 0; m < keys_step_2.length; m++) {
                 var third_key = keys_step_2[m];
                 var third_key_id = second_key_id + "c" + m + "_col";
-                html_t+='<tr style="color:black;background-color:#7BE495;text-align:center" data-toggle="collapse" data-target="#' + third_key_id +'" class="accordion-toggle id="'+second_key_id+'"><td>'+third_key+'</td></tr>';
+                html_t+='<tr style="color:black;background-color:rgba(136,176,54,0.5);text-align:center;cursor:pointer" data-toggle="collapse" data-target="#' + third_key_id +'" class="accordion-toggle id="'+second_key_id+'"><td>'+third_key+'</td></tr>';
                 var obj_step_3 = searchJSON(list,"Workflow",third_key);
                 html_t+='<tr><td colspan="12" class="hiddenRow"><div class="accordian-body collapse" id="'+third_key_id+'">';
                 html_t+='<table class="table table-striped">';
-                html_t+='<thead><tr style="color:black;background-color:#CFF4D2"><th>Task</th><th>AI TOOL Description</th><th>Efficacy KPI</th><th>Efficacy KPI value</th><th>Efficacy Improvement ratio (%)</th><th>Efficiency KPI</th><th>Efficiency KPI value</th><th>Efficiency Improvement ratio (%)</th><th>Include on report</></thead>';
+                html_t+='<thead><tr style="color:black;background-color:rgba(179,198,73,0.5)"><th>Task</th><th>AI TOOL Description</th><th>Efficacy KPI</th><th>Efficacy KPI value</th><th>Efficacy Improvement ratio (%)</th><th>Efficiency KPI</th><th>Efficiency KPI value</th><th>Efficiency Improvement ratio (%)</th><th>Include on report</></thead>';
                 // alert(obj_step_3)
                 for (var n = 0; n < obj_step_3.length; n++) {
                     html_t += '<tr>';
