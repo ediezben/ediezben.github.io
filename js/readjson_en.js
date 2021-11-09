@@ -81,11 +81,11 @@ function constructTable(selector) {
                 var obj_step_3 = searchJSON(list,"Workflow",third_key);
                 html_t+='<tr><td colspan="12" class="hiddenRow"><div class="accordian-body collapse" id="'+third_key_id+'">';
                 html_t+='<table class="table table-striped">';
-                html_t+='<thead><tr style="color:black;background-color:#CFF4D2"><th>AI TOOL Description</th><th>AI TOOL</th><th>EFICACY Annual improvement</th><th>Improvement ratio (%)</th><th>EFFICIENCY Annual improvement</th><th>Improvement ratio (%)</th><th>Include on report</></thead>';
+                html_t+='<thead><tr style="color:black;background-color:#CFF4D2"><th>Task</th><th>AI TOOL Description</th><th>Efficacy KPI</th><th>Efficacy KPI value</th><th>Efficacy Improvement ratio (%)</th><th>Efficiency KPI</th><th>Efficiency KPI value</th><th>Efficiency Improvement ratio (%)</th><th>Include on report</></thead>';
                 // alert(obj_step_3)
                 for (var n = 0; n < obj_step_3.length; n++) {
                     html_t += '<tr>';
-                    var cols = ["AI TOOL description","AI TOOL","EFICACY Annual improvement","Improvement ratio (%)","EFFICIENCY Annual improvement","Improvement ratio (%)"];
+                    var cols = ["Tasks","AI TOOL description","EFICACY KPI","EFICACY Current KPI Value","Efficacy Improvement ratio (%)","EFFICIENCY KPI","EFFICIENCY Current KPI Value","Efficiency Improvement ratio (%)"];
                     for (var colIndex = 0; colIndex < cols.length; colIndex++)
                     {
                         var val = obj_step_3[n][cols[colIndex]];
@@ -93,11 +93,11 @@ function constructTable(selector) {
                         // If there is any key, which is matching
                         // with the column name
                         if (val == null) val = "";
-                        if(cols[colIndex]=="EFICACY Annual improvement"){
-                          html_t+='<td><input type="text" class="form-control" value="'+val+'" aria-label="Amount (to the nearest Euro)"></div></td>'
+                        if(cols[colIndex]=="EFICACY Current KPI Value"){
+                          html_t+='<td><input type="text" class="form-control" value="'+val+'"></div></td>'
                           // html_t+='<td><input type="number" id="quantity" name="quantity" min="0" max="999999999" value="'+val+'"><td>';
-                        }else if(cols[colIndex]=="EFICIENCY Annual improvement"){
-                          html_t+='<td><input type="number" id="quantity" name="quantity" min="0" max="999999999" value="'+val+'"><td>';
+                        }else if(cols[colIndex]=="EFFICIENCY Current KPI Value"){
+                          html_t+='<td><input type="text" class="form-control" value="'+val+'"></div></td>'
                         }else{
                           html_t += '<td>'+val+'</td>';
                         }
