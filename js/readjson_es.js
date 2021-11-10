@@ -53,7 +53,7 @@ function constructTable(selector) {
           for (var i = 0; i < keys.length; i++) {
             var first_key = keys[i];
             var key_id = "a"+ i + "_col";
-            html_t+='<tr style="color:black;background-color:rgba(0,106,137,0.5);text-align:center;cursor:pointer" data-toggle="collapse" data-target="#' + key_id +'" class="accordion-toggle"><td>'+first_key+'</td></tr>';
+            html_t+='<tr style="color:black;background-color:rgba(0,106,137,0.5);text-align:center;cursor:pointer" data-toggle="collapse" data-target="#' + key_id +'" class="accordion-toggle"><td>'+first_key+' <a href="descriptions_en.html#bcp1" target="_blank"><i class="glyphicon glyphicon-info-sign" style="cursor:pointer"></i></a></td></tr>';
             // $(selector).append($('<tr data-toggle="collapse" data-target="#' + key_id +'" class="accordion-toggle"><td></td></tr>').html(first_key));
             var obj_step_1 = searchJSON(list,"Process Type",first_key);
             var keys_step_1 = obj_step_1.map( (value) => value["Process Name"]).filter( (value, index, _arr) => _arr.indexOf(value) == index);
@@ -85,15 +85,19 @@ function constructTable(selector) {
                 // alert(obj_step_3)
                 for (var n = 0; n < obj_step_3.length; n++) {
                     html_t += '<tr>';
-                    var cols = ["Tasks","AI TOOL description","EFICACY KPI","EFICACY Current KPI Value","Efficacy Improvement ratio (%)","EFFICIENCY KPI","EFFICIENCY Current KPI Value","Efficiency Improvement ratio (%)"];
+                    var cols = ["Tasks","AI TOOL Process Aplication Description","EFICACY KPI","EFICACY Current KPI Value","Efficacy Improvement ratio (%)","EFFICIENCY KPI","EFFICIENCY Current KPI Value","Efficiency Improvement ratio (%)"];
                     for (var colIndex = 0; colIndex < cols.length; colIndex++)
                     {
                         var val = obj_step_3[n][cols[colIndex]];
+                        var val_code = obj_step_3[n]["AI Tool Cod"];
 
                         // If there is any key, which is matching
                         // with the column name
                         if (val == null) val = "";
-                        if(cols[colIndex]=="EFICACY Current KPI Value"){
+                        if(cols[colIndex]=="AI TOOL Process Aplication Description"){
+                          html_t += '<td>'+val+' <a href="descriptions_en.html#'+val_code+'" target="_blank"><i class="glyphicon glyphicon-info-sign" style="cursor:pointer"></i></a></td>';
+                          // html_t+='<td><input type="number" id="quantity" name="quantity" min="0" max="999999999" value="'+val+'"><td>';
+                        }else if(cols[colIndex]=="EFICACY Current KPI Value"){
                           html_t+='<td><input type="text" class="form-control" value="'+val+'"></div></td>'
                           // html_t+='<td><input type="number" id="quantity" name="quantity" min="0" max="999999999" value="'+val+'"><td>';
                         }else if(cols[colIndex]=="EFFICIENCY Current KPI Value"){
