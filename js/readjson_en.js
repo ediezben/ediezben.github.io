@@ -93,7 +93,10 @@ function constructTable(selector) {
                         // If there is any key, which is matching
                         // with the column name
                         if (val == null) val = "";
-                        if(cols[colIndex]=="AI TOOL Process Aplication Description"){
+                        if(cols[colIndex]=="Tasks"){
+                          html_t += '<td id="'+val_code+'">'+val+'</td>';
+                          // html_t+='<td><input type="number" id="quantity" name="quantity" min="0" max="999999999" value="'+val+'"><td>';
+                        }else if(cols[colIndex]=="AI TOOL Process Aplication Description"){
                           html_t += '<td>'+val+' <a href="descriptions_en.html#'+val_code+'" target="_blank"><i class="glyphicon glyphicon-info-sign" style="cursor:pointer"></i></a></td>';
                           // html_t+='<td><input type="number" id="quantity" name="quantity" min="0" max="999999999" value="'+val+'"><td>';
                         }else if(cols[colIndex]=="EFICACY Current KPI Value"){
@@ -105,7 +108,8 @@ function constructTable(selector) {
                           html_t += '<td>'+val+'</td>';
                         }
                     }
-                    html_t +='<td>'+'<div class="form-check"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></label></div>'+'</td>'
+                    var name_row = obj_step_3[n]["AI Tool Cod"];
+                    html_t +='<td>'+'<div><button class="btn" style="width:100%;background-color:#CFF4D2" onclick=generatePDF(\''+third_key_id+'\',\''+ name_row +'\')><i class="fa fa-download"></i> Download</button></div>'+'</td>'
                     html_t +='</tr>';
                     // Adding each row to the table
                     // $(selector).append(row);
