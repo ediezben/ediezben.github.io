@@ -28,9 +28,39 @@
      <script type="text/javascript" src="js/html2pdf.bundle.min.js"></script>
      <script type="text/javascript" src="js/jspdf.umd.min.js"></script>
      <script type="text/javascript" src="js/pdf_generator.js"></script>
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+     <script type="text/javascript">
+    $(window).on('load', function() {
+        $('#myModal').modal('show');
+    });
+</script>
+
   </head>
 
 <body id="page-top" onload="constructTable('#ai_tool')">
+  <div id="myModal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Perform AI Tool</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>This is the Perform AI Tool, which will help you learn about Machine Learning and AI in the business.</p>
+          <p>For further information on how to use this tool use the following links:</p>
+          <ul>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Example 1 - AI in Marketing</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Example 2 - Cornland Farm</a></li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- Page Wrapper -->
     <div id="wrapper">
@@ -84,6 +114,7 @@
                       <div id="banner_1" class="span4"><img class="img-fluid" src="img/banner_small.png" /></div>
                       <div class="span4"></div>
                     </div>
+
                   <div class="col-lg-12">
                     <!-- Page Heading -->
                     <br>
