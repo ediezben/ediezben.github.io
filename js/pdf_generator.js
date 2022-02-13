@@ -14,7 +14,46 @@ function generatePDF(id_to_download,id_row) {
         html2canvas:  {scale: 1},
         jsPDF:        { unit: 'mm', format: 'a4', orientation: 'landscape' }
       };
-
+    var list_data = JSON.parse(data);
+    //console.log(list_data[1]);
+    // console.log(id_row);
+    var object_to_expand = {};
+    for (var i = 0; i < list_data.length; i++) {
+          var object = list_data[i];
+          // console.log(object);
+          if(object["AI Tool Cod"]==id_row){
+            object_to_expand = object;
+          }
+    }
+    console.log(object_to_expand);
+    html_p = '';
+    var id_i = object_to_expand["AI Tool Cod"];
+    var pro_desc_i = object_to_expand["AI TOOL Process Aplication Description"];
+    var out_desc_i = object_to_expand["Outcomes Description"];
+    var ai_meth_i = object_to_expand["AI Methodologies"];
+    var pro_type_i = object_to_expand["Process Type"];
+    var pro_name_i = object_to_expand["Process Name"];
+    var wor_i = object_to_expand["Workflow"];
+    var task_i = object_to_expand["Tasks"];
+    var life_i = object_to_expand["TOOL Lifetime (years)"];
+    var ef_kpi_i = object_to_expand["EFICACY KPI"];
+    var ef_kpi_ir_i = object_to_expand["Efficacy Improvement ratio (%)"];
+    var ef_kpi_sr_i = object_to_expand["Source"];
+    var ef_kpi_da_i = object_to_expand["Date"];
+    var ef2_kpi_i = object_to_expand["EFFICIENCY KPI"];
+    var ef2_kpi_ir_i = object_to_expand["Efficiency Improvement ratio (%)"];
+    var ef2_kpi_sr_i = object_to_expand["Source"];
+    var ef2_kpi_da_i = object_to_expand["Date"];
+    html_p+='<div id="'+id_i+'" class="col-lg-12"><h4 class="h4 mb-2 text-gray-800">'+pro_desc_i+'</h4><div class="row"><div class="col-md-3">';
+    html_p+='<p class="mb-4 font-weight-bold">Outcome Description:</p></div><div class="col-md-9"><p class="mb-4">'+out_desc_i+'</p></div></div>';
+    html_p+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">AI Methodologies:</p></div><div class="col-md-9"><p class="mb-4">'+ai_meth_i+'</p></div></div>';
+    html_p+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Process Type:</p></div><div class="col-md-3"><p class="mb-4">'+pro_type_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Process Name:</p></div><div class="col-md-3"><p class="mb-4">'+pro_name_i+'</p></div></div>';
+    html_p+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Workflow:</p></div><div class="col-md-3"><p class="mb-4">'+wor_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Task:</p></div><div class="col-md-3"><p class="mb-4">'+task_i+'</p></div></div>';
+    html_p+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Tool Lifetime (years):</p></div><div class="col-md-3"><p class="mb-4">'+life_i+'</p></div></div>';
+    html_p+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Eficacy KPI:</p></div><div class="col-md-3"><p class="mb-4">'+ef_kpi_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficacy improvement ratio (%):</p></div><div class="col-md-3"><p class="mb-4">'+ef_kpi_ir_i+'</p></div></div>';
+    html_p+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Eficacy Source:</p></div><div class="col-md-3"><p class="mb-4">'+ef_kpi_sr_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficacy Source Date:</p></div><div class="col-md-3"><p class="mb-4">'+ef_kpi_da_i+'</p></div></div>';
+    html_p+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficiency KPI:</p></div><div class="col-md-3"><p class="mb-4">'+ef2_kpi_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficiency improvement ratio (%):</p></div><div class="col-md-3"><p class="mb-4">'+ef2_kpi_ir_i+'</p></div></div>';
+    html_p+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficiency Source:</p></div><div class="col-md-3"><p class="mb-4">'+ef2_kpi_sr_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficiency Source Date:</p></div><div class="col-md-3"><p class="mb-4">'+ef2_kpi_da_i+'</p></div></div></div>';
     const element = document.getElementById(id_to_download);
     const element_fname = document.getElementById("fname_form").value;
     const element_lname = document.getElementById("lname_form").value;
@@ -62,6 +101,7 @@ function generatePDF(id_to_download,id_row) {
     elementToPrint.innerHTML+='<div class="h4 panel-heading"> Session name:</div>';
     elementToPrint.innerHTML+='<div class="panel-heading"><p>'+element_session+'</p></div><br><br><br><br><br><br>';
     elementToPrint.appendChild(tble);
+    elementToPrint.innerHTML+='<br><div class="h4 panel-heading">Tool details (as found in the database)</div>'+html_p;
       html2pdf().from(elementToPrint).set(opt).toPdf().get('pdf').then(function (pdf) {
         var totalPages = pdf.internal.getNumberOfPages();
 
