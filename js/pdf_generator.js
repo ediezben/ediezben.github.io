@@ -25,7 +25,7 @@ function generatePDF(id_to_download,id_row) {
             object_to_expand = object;
           }
     }
-    console.log(object_to_expand);
+    // console.log(object_to_expand);
     html_p = '';
     var id_i = object_to_expand["AI Tool Cod"];
     var pro_desc_i = object_to_expand["AI TOOL Process Aplication Description"];
