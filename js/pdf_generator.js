@@ -13,7 +13,7 @@ function generatePDF(id_to_download,id_row) {
         pagesplit: true,
         filename:     'AI_Perform_Report.pdf',
         image:        { type: 'jpeg', quality: .95 },
-        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'landscape' }
+        jsPDF:        { unit: 'mm', format: 'A4', orientation: 'landscape' }
       };
     var list_data = JSON.parse(data);
     var list_desc = JSON.parse(data_desc);
@@ -79,13 +79,15 @@ function generatePDF(id_to_download,id_row) {
     html_p+='<div id="'+id_i+'" class="col-lg border border-dark"><div class="row"><div class="col-md-3">';
     html_p+='<p class="mb-4 font-weight-bold">AI Tool Description:</p></div><div class="col-md-9"><p class="mb-4">'+pro_desc_i+'</p></div></div>';
     html_p+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Outcome Description:</p></div><div class="col-md-9"><p class="mb-4">'+out_desc_i+'</p></div></div>';
-    // html_p+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">AI Methodologies:</p></div><div class="col-md-9"><p class="mb-4">'+ai_meth_i+'</p></div></div>';
+    html_p+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">AI Methodologies:</p></div><div class="col-md-9"><p class="mb-4">'+ai_meth_i+' <a href="methodologies_en.html" target="_blank"><i class="glyphicon glyphicon-info-sign" style="cursor:pointer"></i></a></p></div></div>';
     // html_p+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Process Type:</p></div><div class="col-md-3"><p class="mb-4">'+pro_type_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Process Name:</p></div><div class="col-md-3"><p class="mb-4">'+pro_name_i+'</p></div></div>';
     // html_p+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Workflow:</p></div><div class="col-md-3"><p class="mb-4">'+wor_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Task:</p></div><div class="col-md-3"><p class="mb-4">'+task_i+'</p></div></div>';
     html_p+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Tool Lifetime (years):</p></div><div class="col-md-3"><p class="mb-4">'+life_i+'</p></div></div>';
-    html_p+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Eficacy KPI:</p></div><div class="col-md-3"><p class="mb-4">'+ef_kpi_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficacy improvement ratio (%):</p></div><div class="col-md-3"><p class="mb-4">'+ef_kpi_ir_i+'</p></div></div>';
-    html_p+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Eficacy Source:</p></div><div class="col-md-3"><p class="mb-4">'+ef_kpi_sr_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficacy Source Date:</p></div><div class="col-md-3"><p class="mb-4">'+ef_kpi_da_i+'</p></div></div>';
-    html_p+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficiency KPI:</p></div><div class="col-md-3"><p class="mb-4">'+ef2_kpi_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficiency improvement ratio (%):</p></div><div class="col-md-3"><p class="mb-4">'+ef2_kpi_ir_i+'</p></div></div>';
+    html_p+='<div class="row"><div class="col-md-12 border-bottom border-bottom-dark"><h4 class="h4 mb-2 text-gray-800">Efficacy</h4></div></div>';
+    html_p+='<br><div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficacy KPI:</p></div><div class="col-md-3"><p class="mb-4">'+ef_kpi_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficacy improvement ratio (%):</p></div><div class="col-md-3"><p class="mb-4">'+ef_kpi_ir_i+'</p></div></div>';
+    html_p+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficacy Source:</p></div><div class="col-md-3"><p class="mb-4">'+ef_kpi_sr_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficacy Source Date:</p></div><div class="col-md-3"><p class="mb-4">'+ef_kpi_da_i+'</p></div></div>';
+    html_p+='<div class="row"><div class="col-md-12 border-bottom border-bottom-dark"><h4 class="h4 mb-2 text-gray-800">Efficiency</h4></div></div>';
+    html_p+='<br><div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficiency KPI:</p></div><div class="col-md-3"><p class="mb-4">'+ef2_kpi_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficiency improvement ratio (%):</p></div><div class="col-md-3"><p class="mb-4">'+ef2_kpi_ir_i+'</p></div></div>';
     html_p+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficiency Source:</p></div><div class="col-md-3"><p class="mb-4">'+ef2_kpi_sr_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficiency Source Date:</p></div><div class="col-md-3"><p class="mb-4">'+ef2_kpi_da_i+'</p></div></div></div>';
     const element = document.getElementById(id_to_download);
     const element_fname = document.getElementById("fname_form").value;
@@ -137,7 +139,7 @@ function generatePDF(id_to_download,id_row) {
    elementToPrint.innerHTML+='<h4 class="h4 mb-2 text-gray-800">'+pro_desc_i+'</h4><br>';
     elementToPrint.innerHTML+='<div class="container"><div class="row"><div class="col-sm-10 border border-dark">'+html_t1+'</div></div></div>';
     elementToPrint.innerHTML+='<br><br><br><div class="h4 panel-heading">AI Tool Data and Tool Impact</div>'+html_p;
-    elementToPrint.innerHTML+='<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>';
+    elementToPrint.innerHTML+='<br><br><br><br><br><br><br><br><br><br><br><br><br>';
     html_end = '';
     html_end+='<div id="ROI_calculation" class="col-lg border border-dark"><div class="row"><div class="col-sm-12"><h4 class="h4 mb-2 text-gray-800">AI Tool ROI & Profit Calculation</h4><br>';
     html_end+='<p>Note: After the research process carried out, we have concluded that it is not possible to perform the standardized automatic calculation of the ROI or the benefit of the application of AI tools, this is due to:';
