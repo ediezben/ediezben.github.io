@@ -142,13 +142,14 @@ function generatePDF(id_to_download,id_row) {
     elementToPrint.innerHTML+='<br><br><br><br><br><br><br><br><br><br><br><br><br>';
     html_end = '';
     html_end+='<div id="ROI_calculation" class="col-lg border border-dark"><div class="row"><div class="col-sm-12"><h4 class="h4 mb-2 text-gray-800">AI Tool ROI & Profit Calculation</h4><br>';
-    html_end+='<p>Note: After the research process carried out, we have concluded that it is not possible to perform the standardized automatic calculation of the ROI or the benefit of the application of AI tools, this is due to:';
+    html_end+='<h4 class="h4 mb-2 text-gray-800">Calculation procedure:</h4><br>';
+    html_end+='<p><b>ROI</b> = annual benefit estimated or committed by the supplier multiplied by the number of years (lifetime) of application of the tool without changes or substantial investments / total cost of the tool (creation and start-up, plus maintenance cost multiplied by the tool lifetime). The result will be a ratio in the form of a percentage.</p>';
+    html_end+='<p><b>Profit</b> = (annual profit estimated or committed by the provider multiplied by the number of years (lifetime) of application of the tool without changes or substantial investments), minus the total cost of the tool (creation and start-up plus total cost of maintenance (maintenance * tool lifetime)). The result will be a value that expresses the improvement achieved in monetary terms.</p>';
+    html_end+='<br><h4 class="h4 mb-2 text-gray-800">Footnote:</h4>';
+    html_end+='<br><p>After the research process carried out, we have concluded that it is not possible to perform the standardized automatic calculation of the ROI or the benefit of the application of AI tools, this is due to:';
     html_end+='<ul><li>The potential diversity of the defined scope of the tool within the activity where it is going to be applied.</li>';
     html_end+='<li>The potential diversity of the results that each company extracts from each activity.</li>';
     html_end+='<li>The potential diversity in the quality of the implemented tool.</li></ul>Despite this, when any sector or solution provider has reported the results obtained in cases of application of the tool to the activity, we have included them in this document for merely illustrative purposes.</p>';
-    html_end+='<br><h4 class="h4 mb-2 text-gray-800">Calculation procedure:</h4><br>';
-    html_end+='<p><b>ROI</b> = annual benefit estimated or committed by the supplier multiplied by the number of years (lifetime) of application of the tool without changes or substantial investments / total cost of the tool (creation and start-up, plus maintenance cost multiplied by the tool lifetime). The result will be a ratio in the form of a percentage.</p>';
-    html_end+='<p><b>Profit</b> = (annual profit estimated or committed by the provider multiplied by the number of years (lifetime) of application of the tool without changes or substantial investments), minus the total cost of the tool (creation and start-up plus total cost of maintenance (maintenance * tool lifetime)). The result will be a value that expresses the improvement achieved in monetary terms.</p>';
     html_end+='</div></div></div>';
     elementToPrint.innerHTML+=html_end;
       html2pdf().from(elementToPrint).set(opt).toPdf().get('pdf').then(function (pdf) {
