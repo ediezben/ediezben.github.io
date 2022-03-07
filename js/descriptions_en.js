@@ -73,8 +73,9 @@ function constructDefinitions(selector_gen,selector_tool) {
             var id_i = list[i]["Code"];
             var term_i = list[i]["Terms"];
             var desc_i = list[i]["Descriptions"];
-            html_t+='<div class="col-lg-12"><h4 id="'+id_i+'" class="h4 mb-2 text-gray-800">'+term_i+'</h4>';
+            html_t+='<div class="col-lg-12"><h4 name="'+id_i+'" id="'+id_i+'" class="h4 mb-2 text-gray-800">'+term_i+'</h4>';
             html_t+='<p class="mb-4">'+desc_i+'</p></div>';
+            html_t+='<br><br>';
           }
           // Appending the header to the table
           $(selector_gen).append(html_t);
@@ -115,9 +116,9 @@ function constructDefinitions(selector_gen,selector_tool) {
           var ef2_kpi_ir_i = object_to_expand["Efficiency Improvement ratio (%)"];
           var ef2_kpi_sr_i = object_to_expand["Source Efficiency"];
           var ef2_kpi_da_i = object_to_expand["Date Efficiency"];
-          html_k+='<div id="'+id_i+'" class="col-lg-12"><h4 class="h4 mb-2 text-gray-800">'+pro_desc_i+'</h4><div class="row"><div class="col-md-3">';
+          html_k+='<div name="'+id_i+'" id="'+id_i+'" class="col-lg-12"><h4 class="h4 mb-2 text-gray-800">'+pro_desc_i+'</h4><div class="row"><div class="col-md-3">';
           html_k+='<p class="mb-4 font-weight-bold">Outcome Description:</p></div><div class="col-md-9"><p class="mb-4">'+out_desc_i+'</p></div></div>';
-          html_k+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">AI Methodologies:</p></div><div class="col-md-9"><p class="mb-4">'+ai_meth_i+'</p></div></div>';
+          html_k+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">AI Methodologies:</p></div><div class="col-md-9"><p class="mb-4">'+ai_meth_i+' <a href="methodologies_en.html" target="_blank"><i class="glyphicon glyphicon-info-sign" style="cursor:pointer"></i></a></p></div></div>';
           html_k+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Process Type:</p></div><div class="col-md-3"><p class="mb-4">'+pro_type_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Process Name:</p></div><div class="col-md-3"><p class="mb-4">'+pro_name_i+'</p></div></div>';
           html_k+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Workflow:</p></div><div class="col-md-3"><p class="mb-4">'+wor_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Task:</p></div><div class="col-md-3"><p class="mb-4">'+task_i+'</p></div></div>';
           html_k+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Tool Lifetime (years):</p></div><div class="col-md-3"><p class="mb-4">'+life_i+'</p></div></div>';
@@ -125,6 +126,7 @@ function constructDefinitions(selector_gen,selector_tool) {
           html_k+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Eficacy Source:</p></div><div class="col-md-3"><p class="mb-4">'+ef_kpi_sr_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficacy Source Date:</p></div><div class="col-md-3"><p class="mb-4">'+ef_kpi_da_i+'</p></div></div>';
           html_k+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficiency KPI:</p></div><div class="col-md-3"><p class="mb-4">'+ef2_kpi_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficiency improvement ratio (%):</p></div><div class="col-md-3"><p class="mb-4">'+ef2_kpi_ir_i+'</p></div></div>';
           html_k+='<div class="row"><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficiency Source:</p></div><div class="col-md-3"><p class="mb-4">'+ef2_kpi_sr_i+'</p></div><div class="col-md-3"><p class="mb-4 font-weight-bold">Efficiency Source Date:</p></div><div class="col-md-3"><p class="mb-4">'+ef2_kpi_da_i+'</p></div></div></div>';
+          html_k+='<br><br>';
         }
         // Appending the header to the table
         $(selector_tool).append(html_k);
