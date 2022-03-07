@@ -13,7 +13,8 @@ function generatePDF(id_to_download,id_row) {
         pagesplit: true,
         filename:     'AI_Perform_Report.pdf',
         image:        { type: 'jpeg', quality: .95 },
-        jsPDF:        { unit: 'mm', format: 'A4', orientation: 'landscape' }
+        jsPDF:        { unit: 'mm', format: 'A4', orientation: 'landscape' },
+        pagebreak: { mode: 'avoid-all', before: '#pag' }
       };
     var list_data = JSON.parse(data);
     var list_desc = JSON.parse(data_desc);
@@ -138,10 +139,10 @@ function generatePDF(id_to_download,id_row) {
     // elementToPrint.appendChild(tble);
    elementToPrint.innerHTML+='<h4 class="h4 mb-2 text-gray-800">'+pro_desc_i+'</h4><br>';
     elementToPrint.innerHTML+='<div class="container"><div class="row"><div class="col-sm-10 border border-dark">'+html_t1+'</div></div></div>';
-    elementToPrint.innerHTML+='<br><br><br><div class="h4 panel-heading">AI Tool Data and Tool Impact</div>'+html_p;
-    elementToPrint.innerHTML+='<br><br><br><br><br><br><br><br><br><br><br><br><br>';
+    elementToPrint.innerHTML+='<div id="pag" class="h4 panel-heading">AI Tool Data and Tool Impact</div>'+html_p;
+    elementToPrint.innerHTML+='';
     html_end = '';
-    html_end+='<div id="ROI_calculation" class="col-lg border border-dark"><div class="row"><div class="col-sm-12"><h4 class="h4 mb-2 text-gray-800">AI Tool ROI & Profit Calculation</h4><br>';
+    html_end+='<div class="col-lg border border-dark"><div class="row"><div class="col-sm-12"><h4 class="h4 mb-2 text-gray-800">AI Tool ROI & Profit Calculation</h4><br>';
     html_end+='<h4 class="h4 mb-2 text-gray-800">Calculation procedure:</h4><br>';
     html_end+='<p><b>ROI</b> = annual benefit estimated or committed by the supplier multiplied by the number of years (lifetime) of application of the tool without changes or substantial investments / total cost of the tool (creation and start-up, plus maintenance cost multiplied by the tool lifetime). The result will be a ratio in the form of a percentage.</p>';
     html_end+='<p><b>Profit</b> = (annual profit estimated or committed by the provider multiplied by the number of years (lifetime) of application of the tool without changes or substantial investments), minus the total cost of the tool (creation and start-up plus total cost of maintenance (maintenance * tool lifetime)). The result will be a value that expresses the improvement achieved in monetary terms.</p>';
@@ -164,12 +165,11 @@ function generatePDF(id_to_download,id_row) {
             pdf.addImage(imgData_sq, "JPEG", 146, 10, 123, 34);
           }
           pdf.addImage(imgData_eu, "JPEG", 270, 200, 25, 7);
-          pdf.text(240,200, 'Page ' + i); //print number bottom right
+          pdf.text(240,200, 'Page ' + i);
+           //print number bottom right
         }
 
-
-      })
-      .save();
+      }).save();
 
       //html2pdf().from(elementToPrint).set(opt).toPdf().get('pdf').then(function (pdf) {
       //  pdf.addImage(imgData2, "PNG", 20, 20, 20, 20);
