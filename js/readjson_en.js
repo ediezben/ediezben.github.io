@@ -88,7 +88,7 @@ function constructTable(selector) {
                 // alert(obj_step_3)
                 for (var n = 0; n < obj_step_3.length; n++) {
                     html_t += '<tr>';
-                    var cols = ["Tasks","AI TOOL Process Aplication Description","Outcomes Description","EFFICACY KPI","EFFICIENCY KPI"];
+                    var cols = ["Tasks","AI TOOL Process Aplication Description","Outcomes Description","EFICACY KPI","EFFICIENCY KPI"];
                     for (var colIndex = 0; colIndex < cols.length; colIndex++)
                     {
                         var val = obj_step_3[n][cols[colIndex]];
