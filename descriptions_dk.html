@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 
@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>AI Methodologies - AI TOOL</title>
+    <title>AI-værktøjsbeskrivelser</title>
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -21,16 +21,18 @@
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
     <!-- Custom styles for this page -->
-    <link rel="stylesheet" type="text/css" href="/DataTables/datatables.css">
-    <script type="text/javascript" charset="utf8" src="/DataTables/datatables.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
-    <script type="text/javascript" src="json/AI_Diagnostic_Tool_Methodologies_5_EN.json"></script>
-    <script type="text/javascript" src="js/methodologies_en.js"></script>
-
+    <script type="text/javascript" src="json/AI_Diagnostic_Tool_Database_6_DK.json"></script>
+    <script type="text/javascript" src="json/AI_Diagnostic_Tool_Description_6_DK.json"></script>
+    <script type="text/javascript" src="js/readjson_dk.js"></script>
+    <script type="text/javascript" src="js/descriptions_dk.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
 
-<body id="page-top" onload="constructMethodologies('#meth_desc')">
+<body id="page-top" onload="constructDefinitions('#gen_desc','#tool_desc')">
 
     <!-- Page Wrapper -->
     <div id="wrapper">
@@ -45,58 +47,70 @@
               <!-- Topbar -->
               <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
-                <!-- Sidebar Toggle (Topbar) -->
-                <h1 class="h3 mb-2 text-gray-800">PERFORM AI TOOL</h1>
+                  <!-- Sidebar Toggle (Topbar) -->
+                      <h1 class="h3 mb-2 text-gray-800">PERFORM AI TOOL</h1>
 
-                <!-- Topbar Navbar -->
-                <ul class="navbar-nav ml-auto" style="align-items: center;">
+                  <!-- Topbar Navbar -->
+                  <ul class="navbar-nav ml-auto" style="align-items: center;">
 
-                  <!-- Nav Item - Search Dropdown (Visible Only XS) -->
-                  <li class="nav-item dropdown no-arrow d-sm-none">
-                    <h1 class="h3 mb-2 text-gray-800">PERFORM AI TOOL Methodologies</h1>
-                  </li>
+                      <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                      <li class="nav-item dropdown no-arrow d-sm-none">
+                          <h1 class="h3 mb-2 text-gray-800">AI-værktøjsbeskrivelser</h1>
+                      </li>
 
-                  <!-- Nav Item - Alerts -->
-                  <li class="nav-item dropdown no-arrow mx-1">
-                    <div id="logo_1">
-                      <img class="img-fluid" src="img/logo_small.png" />
-                    </div>
-                  </li>
+                      <!-- Nav Item - Alerts -->
+                      <li class="nav-item dropdown no-arrow mx-1">
+                        <div id="logo_1">
+                          <img class="img-fluid" src="img/logo_small.png" />
+                        </div>
+                      </li>
 
 
-                  <div class="topbar-divider d-none d-sm-block"></div>
+                      <div class="topbar-divider d-none d-sm-block"></div>
 
-                  <!-- Nav Item - User Information -->
-                  <li class="nav-item dropdown no-arrow mx-1">
-                    <div>
-                      <button class="btn" style="width:100%;background-color:rgb(136,176,54)" onclick="location.href='index.html'"><i class="fa fa-arrow-left"></i> Back to Home</button>
-                    </div>
-                  </li>
+                      <!-- Nav Item - User Information -->
+                      <li class="nav-item dropdown no-arrow mx-1">
+                        <div>
+                          <button class="btn" style="width:100%;background-color:rgb(136,176,54)" onclick="location.href='index.html'"><i class="fa fa-arrow-left"></i> Tilbage til forsiden</button>
+                        </div>
+                      </li>
 
-                </ul>
+                  </ul>
 
               </nav>
-              <!-- End of Topbar -->
+                <!-- End of Topbar -->
 
-              <!-- Begin Page Content -->
-              <div class="container">
+                <!-- Begin Page Content -->
+                <div class="container">
+                  <div class="col-lg-12">
+                    <!-- Page Heading -->
+                    <h1 class="h1 mb-2 text-gray-800">AI-værktøjsbeskrivelser</h1>
+                  </div>
+                  </br>
+                  <div class="col-lg-12">
+                  <h2 class="h2 mb-2 text-gray-800">Generelle beskrivelser</h2>
+                </div>
+                </br>
+                <div id="gen_desc">
+                <!-- Content generated automatically-->
+                </div>
+                </br>
                 <div class="col-lg-12">
-                  <!-- Page Heading -->
-                  <h1 class="h1 mb-2 text-gray-800">AI Methodologies - AI TOOL</h1>
+                <h2 class="h2 mb-2 text-gray-800">Beskrivelser af værktøjer</h2>
                 </div>
               </br>
-              <div id="meth_desc" class="display">
-                <!-- Content generated automatically-->
-              </div>
-        </div>
-      </div>
+              <div id="tool_desc">
+            <!-- Content generated automatically-->
+          </div>
+          </div>
+            </div>
             <!-- End of Main Content -->
 
             <!-- Footer -->
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; PERFORM AI 2022</span>
+                        <span>Copyright &copy; PERFORM AI 2021</span>
                     </div>
                 </div>
             </footer>
@@ -149,6 +163,19 @@
 
     <!-- Page level custom scripts -->
     <script src="js/demo/datatables-demo.js"></script>
+
+    <script type="text/javascript">
+    jQuery(document).ready(function () {
+    var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+    if (window.location.hash && isChrome) {
+        setTimeout(function () {
+            var hash = window.location.hash;
+            window.location.hash = "";
+            window.location.hash = hash;
+        }, 300);
+    }
+});
+    </script>
 
 </body>
 
