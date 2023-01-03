@@ -62,7 +62,7 @@ function constructTable(selector) {
             // $(selector).append($('<tr><td colspan="12" class="hiddenRow"><div class="accordian-body collapse" id="'+key_id+'">'));
             // alert(keys_step_1);
             html_t+='<table class="table table-striped">';
-            var html_head_1 = '<thead style="color:black;"><tr><th>Valitse prosessi:/th></tr><thead>';
+            var html_head_1 = '<thead style="color:black;"><tr><th>Valitse prosessi:</th></tr><thead>';
             html_t += html_head_1;
             for (var k = 0; k < keys_step_1.length; k++) {
               var second_key = keys_step_1[k];
