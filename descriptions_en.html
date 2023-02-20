@@ -173,6 +173,14 @@
             window.location.hash = hash;
         }, 300);
     }
+    var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+if (window.location.hash && isSafari) {
+  setTimeout(function () {
+    var hash = window.location.hash;
+    window.location.hash = "";
+    window.location.hash = hash;
+  }, 300);
+}
 });
     </script>
 
