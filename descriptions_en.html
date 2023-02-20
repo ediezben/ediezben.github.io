@@ -181,6 +181,14 @@ if (window.location.hash && isSafari) {
     window.location.hash = hash;
   }, 300);
 }
+var isFirefox = typeof InstallTrigger !== 'undefined';
+  if (window.location.hash && isFirefox) {
+    setTimeout(function () {
+      var hash = window.location.hash;
+      window.location.hash = "";
+      window.location.hash = hash;
+    }, 300);
+  }
 });
     </script>
 
