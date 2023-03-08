@@ -890,7 +890,7 @@ var styles = [ {
   "format_version" : "1.0",
   "generated_by" : "cytoscape-3.9.1",
   "target_cytoscapejs_version" : "~2.1",
-  "title" : "Directed",
+  "title" : "default",
   "style" : [ {
     "selector" : "node",
     "css" : {
@@ -1334,7 +1334,7 @@ var styles = [ {
   "format_version" : "1.0",
   "generated_by" : "cytoscape-3.9.1",
   "target_cytoscapejs_version" : "~2.1",
-  "title" : "default",
+  "title" : "Directed",
   "style" : [ {
     "selector" : "node",
     "css" : {
