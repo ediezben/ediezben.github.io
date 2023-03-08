@@ -55,7 +55,7 @@ function constructTable(selector) {
             var key_id = "a"+ i + "_col";
             var obj_step_1 = searchJSON(list,"Process Type",first_key);
             var id_general_1 = obj_step_1[0]["PT Code"];
-            html_t+='<tr style="color:black;background-color:rgba(0,106,137,0.5);text-align:center;cursor:pointer" data-toggle="collapse" data-target="#' + key_id +'" class="accordion-toggle"><td>'+first_key+' <a onclick="event.stopPropagation();" href="descriptions_en.html#'+id_general_1+'" target="_blank"><i class="glyphicon glyphicon-info-sign" style="cursor:pointer"></i></a></td></tr>';
+            html_t+='<tr style="color:black;background-color:rgba(0,106,137,0.5);text-align:center;cursor:pointer" data-toggle="collapse" data-target="#' + key_id +'" class="accordion-toggle"><td>'+first_key+' <a onclick="event.stopPropagation();" href="https://ediezben.github.io/descriptions_en.html#'+id_general_1+'" target="_blank"><i class="glyphicon glyphicon-info-sign" style="cursor:pointer"></i></a></td></tr>';
             // $(selector).append($('<tr data-toggle="collapse" data-target="#' + key_id +'" class="accordion-toggle"><td></td></tr>').html(first_key));
             var keys_step_1 = obj_step_1.map( (value) => value["Process Name"]).filter( (value, index, _arr) => _arr.indexOf(value) == index);
             html_t+='<tr><td colspan="12" class="hiddenRow"><div class="accordian-body collapse" id="'+key_id+'">';
@@ -69,7 +69,7 @@ function constructTable(selector) {
               var second_key_id = key_id + "b" + k + "_col";
               var obj_step_2 = searchJSON(list,"Process Name",second_key);
               var id_general_2 = obj_step_2[0]["PR Code"];
-              html_t+='<tr style="color:black;background-color:rgba(54,125,20,0.5);text-align:center;cursor:pointer" data-toggle="collapse" data-target="#' + second_key_id +'" class="accordion-toggle id="'+key_id+'"><td>'+second_key+' <a onclick="event.stopPropagation();" href="descriptions_en.html#'+id_general_2+'" target="_blank"><i class="glyphicon glyphicon-info-sign" style="cursor:pointer"></i></a></td></tr>';
+              html_t+='<tr style="color:black;background-color:rgba(54,125,20,0.5);text-align:center;cursor:pointer" data-toggle="collapse" data-target="#' + second_key_id +'" class="accordion-toggle id="'+key_id+'"><td>'+second_key+' <a onclick="event.stopPropagation();" href="https://ediezben.github.io/descriptions_en.html#'+id_general_2+'" target="_blank"><i class="glyphicon glyphicon-info-sign" style="cursor:pointer"></i></a></td></tr>';
               // $(selector).append($('<tr data-toggle="collapse" data-target="#' + second_key_id +'" class="accordion-toggle id="'+key_id+'"><td></td></tr>').html(second_key));
               var keys_step_2 = obj_step_2.map( (value) => value["Workflow"]).filter( (value, index, _arr) => _arr.indexOf(value) == index);
               html_t+='<tr><td colspan="12" class="hiddenRow"><div class="accordian-body collapse" id="'+second_key_id+'">';
@@ -81,7 +81,7 @@ function constructTable(selector) {
                 var third_key_id = second_key_id + "c" + m + "_col";
                 var obj_step_3 = searchJSON(list,"Workflow",third_key);
                 var id_general_3 = obj_step_3[0]["WF Code"];
-                html_t+='<tr style="color:black;background-color:rgba(136,176,54,0.5);text-align:center;cursor:pointer" data-toggle="collapse" data-target="#' + third_key_id +'" class="accordion-toggle id="'+second_key_id+'"><td>'+third_key+' <a onclick="event.stopPropagation();" href="descriptions_en.html#'+id_general_3+'" target="_blank"><i class="glyphicon glyphicon-info-sign" style="cursor:pointer"></i></a></td></tr>';
+                html_t+='<tr style="color:black;background-color:rgba(136,176,54,0.5);text-align:center;cursor:pointer" data-toggle="collapse" data-target="#' + third_key_id +'" class="accordion-toggle id="'+second_key_id+'"><td>'+third_key+' <a onclick="event.stopPropagation();" href="https://ediezben.github.io/descriptions_en.html#'+id_general_3+'" target="_blank"><i class="glyphicon glyphicon-info-sign" style="cursor:pointer"></i></a></td></tr>';
                 html_t+='<tr><td colspan="12" class="hiddenRow"><div class="accordian-body collapse" id="'+third_key_id+'">';
                 html_t+='<table class="table table-striped">';
                 html_t+='<thead><tr style="color:black;background-color:rgba(179,198,73,0.5)"><th>Task</th><th>AI TOOL Description</th><th>Outcome Description</th><th>Efficacy KPI</th><th>Efficiency KPI</th><th>Action</></thead>';
@@ -98,10 +98,10 @@ function constructTable(selector) {
                         // with the column name
                         if (val == null) val = "";
                         if(cols[colIndex]=="Tasks"){
-                          html_t += '<td id="'+val_code+'">'+val+' <a href="descriptions_en.html#'+val_code_tsk+'" target="_blank"><i class="glyphicon glyphicon-info-sign" style="cursor:pointer"></i></a></td>';
+                          html_t += '<td id="'+val_code+'">'+val+' <a href="https://ediezben.github.io/descriptions_en.html#'+val_code_tsk+'" target="_blank"><i class="glyphicon glyphicon-info-sign" style="cursor:pointer"></i></a></td>';
                           // html_t+='<td><input type="number" id="quantity" name="quantity" min="0" max="999999999" value="'+val+'"><td>';
                         }else if(cols[colIndex]=="AI TOOL Process Aplication Description"){
-                          html_t += '<td>'+val+' <a href="descriptions_en.html#'+val_code+'" target="_blank"><i class="glyphicon glyphicon-info-sign" style="cursor:pointer"></i></a></td>';
+                          html_t += '<td>'+val+' <a href="https://ediezben.github.io/descriptions_en.html#'+val_code+'" target="_blank"><i class="glyphicon glyphicon-info-sign" style="cursor:pointer"></i></a></td>';
                           // html_t+='<td><input type="number" id="quantity" name="quantity" min="0" max="999999999" value="'+val+'"><td>';
                         }else{
                           html_t += '<td>'+val+'</td>';
