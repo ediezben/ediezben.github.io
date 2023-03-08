@@ -2,1261 +2,415 @@ var styles = [ {
   "format_version" : "1.0",
   "generated_by" : "cytoscape-3.9.1",
   "target_cytoscapejs_version" : "~2.1",
-  "title" : "size_rank",
+  "title" : "Marquee",
   "style" : [ {
     "selector" : "node",
     "css" : {
-      "border-width" : 0.0,
-      "shape" : "rectangle",
-      "color" : "rgb(51,51,51)",
-      "height" : 12.0,
-      "background-color" : "rgb(204,204,255)",
-      "background-opacity" : 1.0,
-      "border-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
       "font-family" : "SansSerif.plain",
       "font-weight" : "normal",
-      "text-valign" : "center",
-      "text-halign" : "center",
-      "width" : 12.0,
-      "border-opacity" : 1.0,
-      "font-size" : 9,
-      "content" : "data(name)"
-    }
-  }, {
-    "selector" : "node[ id = '5921' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
       "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5953' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5923' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5801' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5865' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5867' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5869' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5933' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5807' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5873' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5905' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5937' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5813' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5943' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5947' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5919' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6817' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6339' ]",
-    "css" : {
-      "shape" : "roundrectangle",
-      "background-opacity" : 0.19607843137254902,
-      "width" : "-Infinity",
-      "height" : "-Infinity"
-    }
-  }, {
-    "selector" : "node[ id = '6723' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6883' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6915' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6853' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6917' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6759' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6825' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6857' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6315' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6699' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6989' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6767' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6863' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6771' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6899' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6965' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6775' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6839' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6969' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6747' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node:selected",
-    "css" : {
-      "background-color" : "rgb(255,255,0)"
-    }
-  }, {
-    "selector" : "edge",
-    "css" : {
-      "source-arrow-shape" : "none",
-      "color" : "rgb(0,0,0)",
-      "line-color" : "rgb(76,76,76)",
-      "target-arrow-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
-      "width" : 2.0,
-      "font-size" : 10,
-      "font-family" : "SansSerif.plain",
-      "font-weight" : "normal",
-      "content" : "",
-      "source-arrow-color" : "rgb(0,0,0)",
-      "line-style" : "solid",
-      "target-arrow-shape" : "none",
-      "opacity" : 1.0
-    }
-  }, {
-    "selector" : "edge:selected",
-    "css" : {
-      "line-color" : "rgb(255,0,0)"
-    }
-  } ]
-}, {
-  "format_version" : "1.0",
-  "generated_by" : "cytoscape-3.9.1",
-  "target_cytoscapejs_version" : "~2.1",
-  "title" : "Gradient1",
-  "style" : [ {
-    "selector" : "node",
-    "css" : {
-      "border-width" : 0.0,
       "shape" : "ellipse",
-      "color" : "rgb(204,204,204)",
-      "height" : 30.0,
-      "background-color" : "rgb(0,0,0)",
-      "background-opacity" : 1.0,
-      "border-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
-      "font-family" : "SansSerif.plain",
-      "font-weight" : "normal",
       "text-valign" : "bottom",
-      "text-halign" : "right",
-      "width" : 30.0,
-      "border-opacity" : 1.0,
-      "font-size" : 8,
-      "content" : "data(name)"
-    }
-  }, {
-    "selector" : "node[ id = '5921' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5953' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5923' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5801' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5865' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5867' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5869' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5933' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5807' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5873' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5905' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5937' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5813' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5943' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5947' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5919' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6817' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6339' ]",
-    "css" : {
-      "shape" : "roundrectangle",
-      "background-opacity" : 0.19607843137254902,
-      "width" : "-Infinity",
-      "height" : "-Infinity"
-    }
-  }, {
-    "selector" : "node[ id = '6723' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6883' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6915' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6853' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6917' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6759' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6825' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6857' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6315' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6699' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6989' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6767' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6863' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6771' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6899' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6965' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6775' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6839' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6969' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6747' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node:selected",
-    "css" : {
-      "background-color" : "rgb(255,255,0)"
-    }
-  }, {
-    "selector" : "edge",
-    "css" : {
-      "source-arrow-shape" : "none",
-      "color" : "rgb(0,0,0)",
-      "line-color" : "rgb(102,102,102)",
-      "target-arrow-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
-      "width" : 1.0,
-      "font-size" : 10,
-      "font-family" : "SansSerif.plain",
-      "font-weight" : "normal",
-      "content" : "",
-      "source-arrow-color" : "rgb(0,0,0)",
-      "line-style" : "solid",
-      "target-arrow-shape" : "none",
-      "opacity" : 1.0
-    }
-  }, {
-    "selector" : "edge:selected",
-    "css" : {
-      "line-color" : "rgb(255,0,0)"
-    }
-  } ]
-}, {
-  "format_version" : "1.0",
-  "generated_by" : "cytoscape-3.9.1",
-  "target_cytoscapejs_version" : "~2.1",
-  "title" : "Directed",
-  "style" : [ {
-    "selector" : "node",
-    "css" : {
-      "border-width" : 5.0,
-      "shape" : "ellipse",
-      "color" : "rgb(51,153,255)",
-      "height" : 45.0,
-      "background-color" : "rgb(255,255,255)",
-      "background-opacity" : 1.0,
-      "border-color" : "rgb(145,145,145)",
-      "text-opacity" : 1.0,
-      "font-family" : "SansSerif.plain",
-      "font-weight" : "normal",
-      "text-valign" : "center",
       "text-halign" : "center",
-      "width" : 45.0,
+      "text-opacity" : 1.0,
+      "border-width" : 10.0,
+      "background-color" : "rgb(0,204,255)",
+      "background-opacity" : 1.0,
+      "width" : 20.0,
       "border-opacity" : 1.0,
-      "font-size" : 8,
+      "color" : "rgb(102,102,102)",
+      "border-color" : "rgb(255,255,255)",
+      "height" : 20.0,
       "content" : "data(name)"
     }
   }, {
-    "selector" : "node[ id = '5921' ]",
+    "selector" : "node[ id = '386' ]",
     "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
       "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '294' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '358' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '234' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '362' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '270' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '366' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '178' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '434' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '276' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '308' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '182' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '374' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '216' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '280' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '154' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '218' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '250' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '410' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '284' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '316' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2593' ]",
+    "css" : {
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5953' ]",
+    "selector" : "node[ id = '2499' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5923' ]",
+    "selector" : "node[ id = '2629' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5801' ]",
+    "selector" : "node[ id = '2505' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5865' ]",
+    "selector" : "node[ id = '2537' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5867' ]",
+    "selector" : "node[ id = '2569' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5869' ]",
+    "selector" : "node[ id = '2635' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5933' ]",
+    "selector" : "node[ id = '2509' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5807' ]",
+    "selector" : "node[ id = '2573' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5873' ]",
+    "selector" : "node[ id = '2575' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5905' ]",
+    "selector" : "node[ id = '2577' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5937' ]",
+    "selector" : "node[ id = '2641' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5813' ]",
+    "selector" : "node[ id = '2519' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5943' ]",
+    "selector" : "node[ id = '2489' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5849' ]",
+    "selector" : "node[ id = '2521' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5947' ]",
+    "selector" : "node[ id = '2523' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5919' ]",
+    "selector" : "node[ id = '2495' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6817' ]",
-    "css" : {
+      "background-color" : "rgb(250,159,181)",
       "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6339' ]",
-    "css" : {
-      "shape" : "roundrectangle",
-      "background-opacity" : 0.19607843137254902,
-      "width" : "-Infinity",
-      "height" : "-Infinity"
-    }
-  }, {
-    "selector" : "node[ id = '6723' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6883' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6915' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6853' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6917' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6759' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6825' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6857' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6315' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6699' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6989' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6767' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6863' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6771' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6899' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6965' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6775' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6839' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6969' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6747' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
       "height" : 60.0
     }
   }, {
@@ -1267,1310 +421,20 @@ var styles = [ {
   }, {
     "selector" : "edge",
     "css" : {
-      "source-arrow-shape" : "none",
-      "color" : "rgb(51,153,255)",
-      "line-color" : "rgb(204,204,204)",
-      "target-arrow-color" : "rgb(204,204,204)",
-      "text-opacity" : 1.0,
-      "width" : 5.0,
-      "font-size" : 12,
-      "font-family" : "SansSerif.plain",
-      "font-weight" : "normal",
-      "source-arrow-color" : "rgb(204,204,204)",
-      "line-style" : "solid",
-      "target-arrow-shape" : "triangle",
+      "line-style" : "dashed",
       "opacity" : 1.0,
+      "line-color" : "rgb(255,255,255)",
+      "width" : 2.0,
+      "target-arrow-color" : "rgb(255,255,255)",
+      "target-arrow-shape" : "triangle",
+      "text-opacity" : 1.0,
+      "source-arrow-shape" : "none",
+      "color" : "rgb(102,102,102)",
+      "font-size" : 8,
+      "source-arrow-color" : "rgb(255,255,255)",
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal",
       "content" : "data(interaction)"
-    }
-  }, {
-    "selector" : "edge:selected",
-    "css" : {
-      "line-color" : "rgb(255,0,0)"
-    }
-  } ]
-}, {
-  "format_version" : "1.0",
-  "generated_by" : "cytoscape-3.9.1",
-  "target_cytoscapejs_version" : "~2.1",
-  "title" : "default black",
-  "style" : [ {
-    "selector" : "node",
-    "css" : {
-      "border-width" : 0.0,
-      "shape" : "ellipse",
-      "color" : "rgb(204,204,204)",
-      "height" : 15.0,
-      "background-color" : "rgb(255,255,255)",
-      "background-opacity" : 1.0,
-      "border-color" : "rgb(0,153,0)",
-      "text-opacity" : 1.0,
-      "font-family" : "SansSerif.plain",
-      "font-weight" : "normal",
-      "text-valign" : "bottom",
-      "text-halign" : "right",
-      "width" : 15.0,
-      "border-opacity" : 1.0,
-      "font-size" : 12,
-      "content" : "data(name)"
-    }
-  }, {
-    "selector" : "node[ id = '5921' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5953' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5923' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5801' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5865' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5867' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5869' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5933' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5807' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5873' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5905' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5937' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5813' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5943' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5947' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5919' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6817' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6339' ]",
-    "css" : {
-      "shape" : "roundrectangle",
-      "background-opacity" : 0.19607843137254902,
-      "width" : "-Infinity",
-      "height" : "-Infinity"
-    }
-  }, {
-    "selector" : "node[ id = '6723' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6883' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6915' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6853' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6917' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6759' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6825' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6857' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6315' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6699' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6989' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6767' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6863' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6771' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6899' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6965' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6775' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6839' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6969' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6747' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node:selected",
-    "css" : {
-      "background-color" : "rgb(255,255,0)"
-    }
-  }, {
-    "selector" : "edge",
-    "css" : {
-      "source-arrow-shape" : "none",
-      "color" : "rgb(0,0,0)",
-      "line-color" : "rgb(0,153,0)",
-      "target-arrow-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
-      "width" : 2.0,
-      "font-size" : 10,
-      "font-family" : "Dialog.plain",
-      "font-weight" : "normal",
-      "content" : "",
-      "source-arrow-color" : "rgb(0,0,0)",
-      "line-style" : "solid",
-      "target-arrow-shape" : "none",
-      "opacity" : 1.0
-    }
-  }, {
-    "selector" : "edge:selected",
-    "css" : {
-      "line-color" : "rgb(255,0,0)"
-    }
-  } ]
-}, {
-  "format_version" : "1.0",
-  "generated_by" : "cytoscape-3.9.1",
-  "target_cytoscapejs_version" : "~2.1",
-  "title" : "KD genes",
-  "style" : [ {
-    "selector" : "node",
-    "css" : {
-      "border-width" : 0.0,
-      "shape" : "roundrectangle",
-      "color" : "rgb(0,0,0)",
-      "height" : 35.0,
-      "background-color" : "rgb(137,208,245)",
-      "background-opacity" : 1.0,
-      "border-color" : "rgb(204,204,204)",
-      "text-opacity" : 1.0,
-      "font-family" : "SansSerif.plain",
-      "font-weight" : "normal",
-      "text-valign" : "center",
-      "text-halign" : "center",
-      "width" : 75.0,
-      "border-opacity" : 1.0,
-      "font-size" : 12,
-      "content" : "data(name)"
-    }
-  }, {
-    "selector" : "node[ id = '5921' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5953' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5923' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5801' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5865' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5867' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5869' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5933' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5807' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5873' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5905' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5937' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5813' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5943' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5947' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5919' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6817' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6339' ]",
-    "css" : {
-      "shape" : "roundrectangle",
-      "background-opacity" : 0.19607843137254902,
-      "width" : "-Infinity",
-      "height" : "-Infinity"
-    }
-  }, {
-    "selector" : "node[ id = '6723' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6883' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6915' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6853' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6917' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6759' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6825' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6857' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6315' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6699' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6989' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6767' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6863' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6771' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6899' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6965' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6775' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6839' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6969' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6747' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node:selected",
-    "css" : {
-      "background-color" : "rgb(255,255,0)"
-    }
-  }, {
-    "selector" : "edge",
-    "css" : {
-      "source-arrow-shape" : "none",
-      "color" : "rgb(0,0,0)",
-      "line-color" : "rgb(132,132,132)",
-      "target-arrow-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
-      "width" : 2.0,
-      "font-size" : 10,
-      "font-family" : "Dialog.plain",
-      "font-weight" : "normal",
-      "content" : "",
-      "source-arrow-color" : "rgb(0,0,0)",
-      "line-style" : "solid",
-      "target-arrow-shape" : "none",
-      "opacity" : 1.0
-    }
-  }, {
-    "selector" : "edge:selected",
-    "css" : {
-      "line-color" : "rgb(255,0,0)"
-    }
-  } ]
-}, {
-  "format_version" : "1.0",
-  "generated_by" : "cytoscape-3.9.1",
-  "target_cytoscapejs_version" : "~2.1",
-  "title" : "Big Labels",
-  "style" : [ {
-    "selector" : "node",
-    "css" : {
-      "border-width" : 0.0,
-      "shape" : "ellipse",
-      "color" : "rgb(51,51,51)",
-      "height" : 5.0,
-      "background-color" : "rgb(255,255,255)",
-      "background-opacity" : 1.0,
-      "border-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
-      "font-family" : "SansSerif.plain",
-      "font-weight" : "normal",
-      "text-valign" : "center",
-      "text-halign" : "center",
-      "width" : 5.0,
-      "border-opacity" : 1.0,
-      "font-size" : 24,
-      "content" : "data(name)"
-    }
-  }, {
-    "selector" : "node[ id = '5921' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5953' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5923' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5801' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5865' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5867' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5869' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5933' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5807' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5873' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5905' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5937' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5813' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5943' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5947' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5919' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6817' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6339' ]",
-    "css" : {
-      "shape" : "roundrectangle",
-      "background-opacity" : 0.19607843137254902,
-      "width" : "-Infinity",
-      "height" : "-Infinity"
-    }
-  }, {
-    "selector" : "node[ id = '6723' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6883' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6915' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6853' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6917' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6759' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6825' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6857' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6315' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6699' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6989' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6767' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6863' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6771' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6899' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6965' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6775' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6839' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6969' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6747' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node:selected",
-    "css" : {
-      "background-color" : "rgb(255,0,102)"
-    }
-  }, {
-    "selector" : "edge",
-    "css" : {
-      "source-arrow-shape" : "none",
-      "color" : "rgb(0,0,0)",
-      "line-color" : "rgb(183,183,183)",
-      "target-arrow-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
-      "width" : 1.0,
-      "font-size" : 10,
-      "font-family" : "SansSerif.plain",
-      "font-weight" : "normal",
-      "content" : "",
-      "source-arrow-color" : "rgb(0,0,0)",
-      "line-style" : "solid",
-      "target-arrow-shape" : "none",
-      "opacity" : 1.0
     }
   }, {
     "selector" : "edge:selected",
@@ -2586,397 +450,411 @@ var styles = [ {
   "style" : [ {
     "selector" : "node",
     "css" : {
-      "border-width" : 20.0,
-      "shape" : "ellipse",
-      "color" : "rgb(19,58,96)",
-      "height" : 50.0,
-      "background-color" : "rgb(255,255,255)",
-      "background-opacity" : 1.0,
-      "border-color" : "rgb(51,153,255)",
-      "text-opacity" : 1.0,
       "font-family" : "SansSerif.plain",
       "font-weight" : "normal",
+      "font-size" : 8,
+      "shape" : "ellipse",
       "text-valign" : "center",
       "text-halign" : "center",
+      "text-opacity" : 1.0,
+      "border-width" : 20.0,
+      "background-color" : "rgb(255,255,255)",
+      "background-opacity" : 1.0,
       "width" : 50.0,
       "border-opacity" : 1.0,
-      "font-size" : 8,
+      "color" : "rgb(19,58,96)",
+      "border-color" : "rgb(51,153,255)",
+      "height" : 50.0,
       "content" : "data(name)"
     }
   }, {
-    "selector" : "node[ id = '5921' ]",
+    "selector" : "node[ id = '386' ]",
     "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
       "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '294' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '358' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '234' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '362' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '270' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '366' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '178' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '434' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '276' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '308' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '182' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '374' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '216' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '280' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '154' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '218' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '250' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '410' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '284' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '316' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2593' ]",
+    "css" : {
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5953' ]",
+    "selector" : "node[ id = '2499' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5923' ]",
+    "selector" : "node[ id = '2629' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5801' ]",
+    "selector" : "node[ id = '2505' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5865' ]",
+    "selector" : "node[ id = '2537' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5867' ]",
+    "selector" : "node[ id = '2569' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5869' ]",
+    "selector" : "node[ id = '2635' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5933' ]",
+    "selector" : "node[ id = '2509' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5807' ]",
+    "selector" : "node[ id = '2573' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5873' ]",
+    "selector" : "node[ id = '2575' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5905' ]",
+    "selector" : "node[ id = '2577' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5937' ]",
+    "selector" : "node[ id = '2641' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5813' ]",
+    "selector" : "node[ id = '2519' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5943' ]",
+    "selector" : "node[ id = '2489' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5849' ]",
+    "selector" : "node[ id = '2521' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5947' ]",
+    "selector" : "node[ id = '2523' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5919' ]",
+    "selector" : "node[ id = '2495' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6817' ]",
-    "css" : {
+      "background-color" : "rgb(250,159,181)",
       "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6339' ]",
-    "css" : {
-      "shape" : "roundrectangle",
-      "background-opacity" : 0.19607843137254902,
-      "width" : "-Infinity",
-      "height" : "-Infinity"
-    }
-  }, {
-    "selector" : "node[ id = '6723' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6883' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6915' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6853' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6917' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6759' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6825' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6857' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6315' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6699' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6989' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6767' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6863' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6771' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6899' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6965' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6775' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6839' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6969' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6747' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
       "height" : 60.0
     }
   }, {
@@ -2987,20 +865,464 @@ var styles = [ {
   }, {
     "selector" : "edge",
     "css" : {
+      "line-style" : "solid",
+      "opacity" : 1.0,
+      "line-color" : "rgb(51,153,255)",
+      "width" : 3.0,
+      "target-arrow-color" : "rgb(0,0,0)",
+      "content" : "",
+      "target-arrow-shape" : "none",
+      "text-opacity" : 1.0,
       "source-arrow-shape" : "none",
       "color" : "rgb(0,0,0)",
-      "line-color" : "rgb(51,153,255)",
-      "target-arrow-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
-      "width" : 3.0,
       "font-size" : 10,
+      "source-arrow-color" : "rgb(0,0,0)",
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal"
+    }
+  }, {
+    "selector" : "edge:selected",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  } ]
+}, {
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.9.1",
+  "target_cytoscapejs_version" : "~2.1",
+  "title" : "Directed",
+  "style" : [ {
+    "selector" : "node",
+    "css" : {
       "font-family" : "SansSerif.plain",
       "font-weight" : "normal",
-      "content" : "",
-      "source-arrow-color" : "rgb(0,0,0)",
+      "font-size" : 8,
+      "shape" : "ellipse",
+      "text-valign" : "center",
+      "text-halign" : "center",
+      "text-opacity" : 1.0,
+      "border-width" : 5.0,
+      "background-color" : "rgb(255,255,255)",
+      "background-opacity" : 1.0,
+      "width" : 45.0,
+      "border-opacity" : 1.0,
+      "color" : "rgb(51,153,255)",
+      "border-color" : "rgb(145,145,145)",
+      "height" : 45.0,
+      "content" : "data(name)"
+    }
+  }, {
+    "selector" : "node[ id = '386' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '294' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '358' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '234' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '362' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '270' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '366' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '178' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '434' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '276' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '308' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '182' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '374' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '216' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '280' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '154' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '218' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '250' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '410' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '284' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '316' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2593' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2499' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2629' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2505' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2537' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2569' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2635' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2509' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2573' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2575' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2577' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2641' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2519' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2489' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2521' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2523' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2495' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node:selected",
+    "css" : {
+      "background-color" : "rgb(255,0,102)"
+    }
+  }, {
+    "selector" : "edge",
+    "css" : {
       "line-style" : "solid",
-      "target-arrow-shape" : "none",
-      "opacity" : 1.0
+      "opacity" : 1.0,
+      "line-color" : "rgb(204,204,204)",
+      "width" : 2.0,
+      "target-arrow-color" : "rgb(204,204,204)",
+      "target-arrow-shape" : "triangle",
+      "text-opacity" : 1.0,
+      "source-arrow-shape" : "none",
+      "color" : "rgb(51,153,255)",
+      "font-size" : 12,
+      "source-arrow-color" : "rgb(204,204,204)",
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal",
+      "content" : "data(interaction)"
     }
   }, {
     "selector" : "edge:selected",
@@ -3016,397 +1338,411 @@ var styles = [ {
   "style" : [ {
     "selector" : "node",
     "css" : {
-      "border-width" : 0.0,
-      "shape" : "roundrectangle",
-      "color" : "rgb(0,0,0)",
-      "height" : 35.0,
-      "background-color" : "rgb(137,208,245)",
-      "background-opacity" : 1.0,
-      "border-color" : "rgb(204,204,204)",
-      "text-opacity" : 1.0,
       "font-family" : "SansSerif.plain",
       "font-weight" : "normal",
+      "font-size" : 12,
+      "shape" : "roundrectangle",
       "text-valign" : "center",
       "text-halign" : "center",
+      "text-opacity" : 1.0,
+      "border-width" : 0.0,
+      "background-color" : "rgb(137,208,245)",
+      "background-opacity" : 1.0,
       "width" : 75.0,
       "border-opacity" : 1.0,
-      "font-size" : 12,
+      "color" : "rgb(0,0,0)",
+      "border-color" : "rgb(204,204,204)",
+      "height" : 35.0,
       "content" : "data(name)"
     }
   }, {
-    "selector" : "node[ id = '5921' ]",
+    "selector" : "node[ id = '386' ]",
     "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
       "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '294' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '358' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '234' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '362' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '270' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '366' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '178' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '434' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '276' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '308' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '182' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '374' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '216' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '280' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '154' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '218' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '250' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '410' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '284' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '316' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2593' ]",
+    "css" : {
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5953' ]",
+    "selector" : "node[ id = '2499' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5923' ]",
+    "selector" : "node[ id = '2629' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5801' ]",
+    "selector" : "node[ id = '2505' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5865' ]",
+    "selector" : "node[ id = '2537' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5867' ]",
+    "selector" : "node[ id = '2569' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5869' ]",
+    "selector" : "node[ id = '2635' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5933' ]",
+    "selector" : "node[ id = '2509' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5807' ]",
+    "selector" : "node[ id = '2573' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5873' ]",
+    "selector" : "node[ id = '2575' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5905' ]",
+    "selector" : "node[ id = '2577' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5937' ]",
+    "selector" : "node[ id = '2641' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5813' ]",
+    "selector" : "node[ id = '2519' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5943' ]",
+    "selector" : "node[ id = '2489' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5849' ]",
+    "selector" : "node[ id = '2521' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5947' ]",
+    "selector" : "node[ id = '2523' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5919' ]",
+    "selector" : "node[ id = '2495' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6817' ]",
-    "css" : {
+      "background-color" : "rgb(250,159,181)",
       "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6339' ]",
-    "css" : {
-      "shape" : "roundrectangle",
-      "background-opacity" : 0.19607843137254902,
-      "width" : "-Infinity",
-      "height" : "-Infinity"
-    }
-  }, {
-    "selector" : "node[ id = '6723' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6883' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6915' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6853' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6917' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6759' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6825' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6857' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6315' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6699' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6989' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6767' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6863' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6771' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6899' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6965' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6775' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6839' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6969' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6747' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
       "height" : 60.0
     }
   }, {
@@ -3417,20 +1753,20 @@ var styles = [ {
   }, {
     "selector" : "edge",
     "css" : {
+      "line-style" : "solid",
+      "opacity" : 1.0,
+      "line-color" : "rgb(132,132,132)",
+      "width" : 2.0,
+      "target-arrow-color" : "rgb(0,0,0)",
+      "content" : "",
+      "target-arrow-shape" : "none",
+      "text-opacity" : 1.0,
       "source-arrow-shape" : "none",
       "color" : "rgb(0,0,0)",
-      "line-color" : "rgb(132,132,132)",
-      "target-arrow-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
-      "width" : 2.0,
       "font-size" : 10,
-      "font-family" : "Dialog.plain",
-      "font-weight" : "normal",
-      "content" : "",
       "source-arrow-color" : "rgb(0,0,0)",
-      "line-style" : "solid",
-      "target-arrow-shape" : "none",
-      "opacity" : 1.0
+      "font-family" : "Dialog.plain",
+      "font-weight" : "normal"
     }
   }, {
     "selector" : "edge:selected",
@@ -3446,397 +1782,411 @@ var styles = [ {
   "style" : [ {
     "selector" : "node",
     "css" : {
-      "border-width" : 0.0,
-      "shape" : "ellipse",
-      "color" : "rgb(51,51,51)",
-      "height" : 25.0,
-      "background-color" : "rgb(127,205,187)",
-      "background-opacity" : 1.0,
-      "border-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
       "font-family" : "Dialog.plain",
       "font-weight" : "normal",
+      "font-size" : 10,
+      "shape" : "ellipse",
       "text-valign" : "center",
       "text-halign" : "center",
+      "text-opacity" : 1.0,
+      "border-width" : 0.0,
+      "background-color" : "rgb(127,205,187)",
+      "background-opacity" : 1.0,
       "width" : 25.0,
       "border-opacity" : 1.0,
-      "font-size" : 10,
+      "color" : "rgb(51,51,51)",
+      "border-color" : "rgb(0,0,0)",
+      "height" : 25.0,
       "content" : "data(name)"
     }
   }, {
-    "selector" : "node[ id = '5921' ]",
+    "selector" : "node[ id = '386' ]",
     "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
       "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '294' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '358' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '234' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '362' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '270' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '366' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '178' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '434' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '276' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '308' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '182' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '374' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '216' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '280' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '154' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '218' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '250' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '410' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '284' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '316' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2593' ]",
+    "css" : {
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5953' ]",
+    "selector" : "node[ id = '2499' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5923' ]",
+    "selector" : "node[ id = '2629' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5801' ]",
+    "selector" : "node[ id = '2505' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5865' ]",
+    "selector" : "node[ id = '2537' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5867' ]",
+    "selector" : "node[ id = '2569' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5869' ]",
+    "selector" : "node[ id = '2635' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5933' ]",
+    "selector" : "node[ id = '2509' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5807' ]",
+    "selector" : "node[ id = '2573' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5873' ]",
+    "selector" : "node[ id = '2575' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5905' ]",
+    "selector" : "node[ id = '2577' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5937' ]",
+    "selector" : "node[ id = '2641' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5813' ]",
+    "selector" : "node[ id = '2519' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5943' ]",
+    "selector" : "node[ id = '2489' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5849' ]",
+    "selector" : "node[ id = '2521' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5947' ]",
+    "selector" : "node[ id = '2523' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5919' ]",
+    "selector" : "node[ id = '2495' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6817' ]",
-    "css" : {
+      "background-color" : "rgb(250,159,181)",
       "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6339' ]",
-    "css" : {
-      "shape" : "roundrectangle",
-      "background-opacity" : 0.19607843137254902,
-      "width" : "-Infinity",
-      "height" : "-Infinity"
-    }
-  }, {
-    "selector" : "node[ id = '6723' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6883' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6915' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6853' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6917' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6759' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6825' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6857' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6315' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6699' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6989' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6767' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6863' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6771' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6899' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6965' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6775' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6839' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6969' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6747' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
       "height" : 60.0
     }
   }, {
@@ -3847,19 +2197,19 @@ var styles = [ {
   }, {
     "selector" : "edge",
     "css" : {
+      "line-style" : "solid",
+      "opacity" : 1.0,
+      "line-color" : "rgb(153,153,153)",
+      "width" : 1.0,
+      "target-arrow-color" : "rgb(0,0,0)",
+      "target-arrow-shape" : "none",
+      "text-opacity" : 1.0,
       "source-arrow-shape" : "none",
       "color" : "rgb(51,51,51)",
-      "line-color" : "rgb(153,153,153)",
-      "target-arrow-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
-      "width" : 1.0,
       "font-size" : 10,
+      "source-arrow-color" : "rgb(0,0,0)",
       "font-family" : "Dialog.plain",
       "font-weight" : "normal",
-      "source-arrow-color" : "rgb(0,0,0)",
-      "line-style" : "solid",
-      "target-arrow-shape" : "none",
-      "opacity" : 1.0,
       "content" : "data(interaction)"
     }
   }, {
@@ -3882,1691 +2232,1303 @@ var styles = [ {
   "format_version" : "1.0",
   "generated_by" : "cytoscape-3.9.1",
   "target_cytoscapejs_version" : "~2.1",
+  "title" : "Minimal",
+  "style" : [ {
+    "selector" : "node",
+    "css" : {
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal",
+      "font-size" : 9,
+      "shape" : "rectangle",
+      "text-valign" : "center",
+      "text-halign" : "center",
+      "text-opacity" : 1.0,
+      "border-width" : 0.0,
+      "background-color" : "rgb(255,255,255)",
+      "background-opacity" : 1.0,
+      "width" : 42.0,
+      "border-opacity" : 1.0,
+      "color" : "rgb(51,51,51)",
+      "border-color" : "rgb(0,0,0)",
+      "height" : 42.0,
+      "content" : "data(name)"
+    }
+  }, {
+    "selector" : "node[ id = '386' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '294' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '358' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '234' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '362' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '270' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '366' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '178' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '434' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '276' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '308' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '182' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '374' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '216' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '280' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '154' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '218' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '250' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '410' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '284' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '316' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2593' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2499' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2629' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2505' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2537' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2569' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2635' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2509' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2573' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2575' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2577' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2641' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2519' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2489' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2521' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2523' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2495' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node:selected",
+    "css" : {
+      "background-color" : "rgb(255,255,0)"
+    }
+  }, {
+    "selector" : "edge",
+    "css" : {
+      "line-style" : "solid",
+      "opacity" : 1.0,
+      "line-color" : "rgb(76,76,76)",
+      "width" : 2.0,
+      "target-arrow-color" : "rgb(0,0,0)",
+      "content" : "",
+      "target-arrow-shape" : "none",
+      "text-opacity" : 1.0,
+      "source-arrow-shape" : "none",
+      "color" : "rgb(0,0,0)",
+      "font-size" : 10,
+      "source-arrow-color" : "rgb(0,0,0)",
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal"
+    }
+  }, {
+    "selector" : "edge:selected",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  } ]
+}, {
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.9.1",
+  "target_cytoscapejs_version" : "~2.1",
+  "title" : "Gradient1",
+  "style" : [ {
+    "selector" : "node",
+    "css" : {
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal",
+      "font-size" : 8,
+      "shape" : "ellipse",
+      "text-valign" : "bottom",
+      "text-halign" : "right",
+      "text-opacity" : 1.0,
+      "border-width" : 0.0,
+      "background-color" : "rgb(0,0,0)",
+      "background-opacity" : 1.0,
+      "width" : 30.0,
+      "border-opacity" : 1.0,
+      "color" : "rgb(204,204,204)",
+      "border-color" : "rgb(0,0,0)",
+      "height" : 30.0,
+      "content" : "data(name)"
+    }
+  }, {
+    "selector" : "node[ id = '386' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '294' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '358' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '234' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '362' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '270' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '366' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '178' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '434' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '276' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '308' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '182' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '374' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '216' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '280' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '154' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '218' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '250' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '410' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '284' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '316' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2593' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2499' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2629' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2505' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2537' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2569' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2635' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2509' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2573' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2575' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2577' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2641' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2519' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2489' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2521' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2523' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2495' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node:selected",
+    "css" : {
+      "background-color" : "rgb(255,255,0)"
+    }
+  }, {
+    "selector" : "edge",
+    "css" : {
+      "line-style" : "solid",
+      "opacity" : 1.0,
+      "line-color" : "rgb(102,102,102)",
+      "width" : 1.0,
+      "target-arrow-color" : "rgb(0,0,0)",
+      "content" : "",
+      "target-arrow-shape" : "none",
+      "text-opacity" : 1.0,
+      "source-arrow-shape" : "none",
+      "color" : "rgb(0,0,0)",
+      "font-size" : 10,
+      "source-arrow-color" : "rgb(0,0,0)",
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal"
+    }
+  }, {
+    "selector" : "edge:selected",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  } ]
+}, {
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.9.1",
+  "target_cytoscapejs_version" : "~2.1",
   "title" : "Curved",
   "style" : [ {
     "selector" : "node",
     "css" : {
-      "border-width" : 7.0,
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal",
+      "font-size" : 14,
       "shape" : "ellipse",
-      "color" : "rgb(102,102,102)",
-      "height" : 18.0,
+      "text-valign" : "bottom",
+      "text-halign" : "right",
+      "text-opacity" : 1.0,
+      "border-width" : 7.0,
       "background-color" : "rgb(254,196,79)",
       "background-opacity" : 1.0,
-      "border-color" : "rgb(255,255,255)",
-      "text-opacity" : 1.0,
-      "font-family" : "SansSerif.plain",
-      "font-weight" : "normal",
-      "text-valign" : "bottom",
-      "text-halign" : "right",
       "width" : 18.0,
       "border-opacity" : 1.0,
-      "font-size" : 14,
-      "content" : "data(name)"
-    }
-  }, {
-    "selector" : "node[ id = '5921' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5953' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5923' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5801' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5865' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5867' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5869' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5933' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5807' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5873' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5905' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5937' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5813' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5943' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5947' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5919' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6817' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6339' ]",
-    "css" : {
-      "shape" : "roundrectangle",
-      "background-opacity" : 0.19607843137254902,
-      "width" : "-Infinity",
-      "height" : "-Infinity"
-    }
-  }, {
-    "selector" : "node[ id = '6723' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6883' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6915' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6853' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6917' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6759' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6825' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6857' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6315' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6699' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6989' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6767' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6863' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6771' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6899' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6965' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6775' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6839' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6969' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6747' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node:selected",
-    "css" : {
-      "background-color" : "rgb(255,255,0)"
-    }
-  }, {
-    "selector" : "edge",
-    "css" : {
-      "source-arrow-shape" : "none",
-      "color" : "rgb(0,0,0)",
-      "line-color" : "rgb(255,255,255)",
-      "target-arrow-color" : "rgb(255,255,255)",
-      "text-opacity" : 1.0,
-      "width" : 3.0,
-      "font-size" : 10,
-      "font-family" : "SansSerif.plain",
-      "font-weight" : "normal",
-      "content" : "",
-      "source-arrow-color" : "rgb(255,255,255)",
-      "line-style" : "solid",
-      "target-arrow-shape" : "triangle",
-      "opacity" : 1.0
-    }
-  }, {
-    "selector" : "edge:selected",
-    "css" : {
-      "line-color" : "rgb(255,0,0)"
-    }
-  } ]
-}, {
-  "format_version" : "1.0",
-  "generated_by" : "cytoscape-3.9.1",
-  "target_cytoscapejs_version" : "~2.1",
-  "title" : "Sample3",
-  "style" : [ {
-    "selector" : "node",
-    "css" : {
-      "border-width" : 8.0,
-      "shape" : "ellipse",
-      "color" : "rgb(206,206,206)",
-      "height" : 20.0,
-      "background-color" : "rgb(61,154,255)",
-      "background-opacity" : 1.0,
-      "border-color" : "rgb(255,255,255)",
-      "text-opacity" : 1.0,
-      "font-family" : "SansSerif.plain",
-      "font-weight" : "normal",
-      "text-valign" : "bottom",
-      "text-halign" : "right",
-      "width" : 20.0,
-      "border-opacity" : 1.0,
-      "font-size" : 14,
-      "content" : "data(name)"
-    }
-  }, {
-    "selector" : "node[ id = '5921' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5953' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5923' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5801' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5865' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5867' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5869' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5933' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5807' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5873' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5905' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5937' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5813' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5943' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5947' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5919' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6817' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6339' ]",
-    "css" : {
-      "shape" : "roundrectangle",
-      "background-opacity" : 0.19607843137254902,
-      "width" : "-Infinity",
-      "height" : "-Infinity"
-    }
-  }, {
-    "selector" : "node[ id = '6723' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6883' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6915' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6853' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6917' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6759' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6825' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6857' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6315' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6699' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6989' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6767' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6863' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6771' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6899' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6965' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6775' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6839' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6969' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6747' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node:selected",
-    "css" : {
-      "background-color" : "rgb(255,255,0)"
-    }
-  }, {
-    "selector" : "edge",
-    "css" : {
-      "source-arrow-shape" : "none",
-      "color" : "rgb(0,0,0)",
-      "line-color" : "rgb(255,255,255)",
-      "target-arrow-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
-      "width" : 2.0,
-      "font-size" : 10,
-      "font-family" : "SansSerif.plain",
-      "font-weight" : "normal",
-      "content" : "",
-      "source-arrow-color" : "rgb(0,0,0)",
-      "line-style" : "solid",
-      "target-arrow-shape" : "none",
-      "opacity" : 1.0
-    }
-  }, {
-    "selector" : "edge:selected",
-    "css" : {
-      "line-color" : "rgb(255,0,0)"
-    }
-  } ]
-}, {
-  "format_version" : "1.0",
-  "generated_by" : "cytoscape-3.9.1",
-  "target_cytoscapejs_version" : "~2.1",
-  "title" : "Solid",
-  "style" : [ {
-    "selector" : "node",
-    "css" : {
-      "border-width" : 0.0,
-      "shape" : "ellipse",
-      "color" : "rgb(0,0,0)",
-      "height" : 40.0,
-      "background-color" : "rgb(102,102,102)",
-      "background-opacity" : 1.0,
-      "border-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
-      "font-family" : "Dialog.plain",
-      "font-weight" : "normal",
-      "text-valign" : "center",
-      "text-halign" : "center",
-      "width" : 40.0,
-      "border-opacity" : 1.0,
-      "font-size" : 14,
-      "content" : "data(name)"
-    }
-  }, {
-    "selector" : "node[ id = '5921' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5953' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5923' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5801' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5865' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5867' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5869' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5933' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5807' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5873' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5905' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5937' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5813' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5943' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5947' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '5919' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
-      "shape" : "octagon",
-      "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6817' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6339' ]",
-    "css" : {
-      "shape" : "roundrectangle",
-      "background-opacity" : 0.19607843137254902,
-      "width" : "-Infinity",
-      "height" : "-Infinity"
-    }
-  }, {
-    "selector" : "node[ id = '6723' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6883' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6915' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6853' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6917' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6759' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6825' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6857' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6315' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6699' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6989' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6767' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6863' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6771' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6899' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6965' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6775' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6839' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6969' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6747' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node:selected",
-    "css" : {
-      "background-color" : "rgb(255,255,0)"
-    }
-  }, {
-    "selector" : "edge",
-    "css" : {
-      "source-arrow-shape" : "none",
-      "color" : "rgb(0,0,0)",
-      "line-color" : "rgb(204,204,204)",
-      "target-arrow-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
-      "width" : 12.0,
-      "font-size" : 10,
-      "font-family" : "Dialog.plain",
-      "font-weight" : "normal",
-      "source-arrow-color" : "rgb(0,0,0)",
-      "line-style" : "solid",
-      "target-arrow-shape" : "none",
-      "opacity" : 1.0,
-      "content" : "data(interaction)"
-    }
-  }, {
-    "selector" : "edge:selected",
-    "css" : {
-      "line-color" : "rgb(255,0,0)"
-    }
-  } ]
-}, {
-  "format_version" : "1.0",
-  "generated_by" : "cytoscape-3.9.1",
-  "target_cytoscapejs_version" : "~2.1",
-  "title" : "Sample2",
-  "style" : [ {
-    "selector" : "node",
-    "css" : {
-      "border-width" : 15.0,
-      "shape" : "ellipse",
       "color" : "rgb(102,102,102)",
-      "height" : 50.0,
-      "background-color" : "rgb(58,127,182)",
-      "background-opacity" : 1.0,
       "border-color" : "rgb(255,255,255)",
-      "text-opacity" : 1.0,
-      "font-family" : "Dialog.plain",
-      "font-weight" : "normal",
-      "text-valign" : "center",
-      "text-halign" : "right",
-      "width" : 50.0,
-      "border-opacity" : 1.0,
-      "font-size" : 20,
+      "height" : 18.0,
       "content" : "data(name)"
     }
   }, {
-    "selector" : "node[ id = '5921' ]",
+    "selector" : "node[ id = '386' ]",
     "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
       "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '294' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '358' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '234' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '362' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '270' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '366' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '178' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '434' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '276' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '308' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '182' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '374' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '216' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '280' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '154' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '218' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '250' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '410' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '284' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '316' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2593' ]",
+    "css" : {
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5953' ]",
+    "selector" : "node[ id = '2499' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5923' ]",
+    "selector" : "node[ id = '2629' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5801' ]",
+    "selector" : "node[ id = '2505' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5865' ]",
+    "selector" : "node[ id = '2537' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5867' ]",
+    "selector" : "node[ id = '2569' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5869' ]",
+    "selector" : "node[ id = '2635' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5933' ]",
+    "selector" : "node[ id = '2509' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5807' ]",
+    "selector" : "node[ id = '2573' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5873' ]",
+    "selector" : "node[ id = '2575' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5905' ]",
+    "selector" : "node[ id = '2577' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5937' ]",
+    "selector" : "node[ id = '2641' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5813' ]",
+    "selector" : "node[ id = '2519' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5943' ]",
+    "selector" : "node[ id = '2489' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5849' ]",
+    "selector" : "node[ id = '2521' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5947' ]",
+    "selector" : "node[ id = '2523' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5919' ]",
+    "selector" : "node[ id = '2495' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6817' ]",
-    "css" : {
+      "background-color" : "rgb(250,159,181)",
       "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6339' ]",
-    "css" : {
-      "shape" : "roundrectangle",
-      "background-opacity" : 0.19607843137254902,
-      "width" : "-Infinity",
-      "height" : "-Infinity"
-    }
-  }, {
-    "selector" : "node[ id = '6723' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6883' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6915' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6853' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6917' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6759' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6825' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6857' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6315' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6699' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6989' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6767' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6863' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6771' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6899' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6965' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6775' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6839' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6969' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6747' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
       "height" : 60.0
     }
   }, {
@@ -5577,20 +3539,20 @@ var styles = [ {
   }, {
     "selector" : "edge",
     "css" : {
+      "line-style" : "solid",
+      "opacity" : 1.0,
+      "line-color" : "rgb(255,255,255)",
+      "width" : 3.0,
+      "target-arrow-color" : "rgb(255,255,255)",
+      "content" : "",
+      "target-arrow-shape" : "triangle",
+      "text-opacity" : 1.0,
       "source-arrow-shape" : "none",
       "color" : "rgb(0,0,0)",
-      "line-color" : "rgb(255,255,255)",
-      "target-arrow-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
-      "width" : 20.0,
       "font-size" : 10,
+      "source-arrow-color" : "rgb(255,255,255)",
       "font-family" : "SansSerif.plain",
-      "font-weight" : "normal",
-      "content" : "",
-      "source-arrow-color" : "rgb(0,0,0)",
-      "line-style" : "solid",
-      "target-arrow-shape" : "none",
-      "opacity" : 1.0
+      "font-weight" : "normal"
     }
   }, {
     "selector" : "edge:selected",
@@ -5602,425 +3564,439 @@ var styles = [ {
   "format_version" : "1.0",
   "generated_by" : "cytoscape-3.9.1",
   "target_cytoscapejs_version" : "~2.1",
-  "title" : "Universe",
+  "title" : "Big Labels",
   "style" : [ {
     "selector" : "node",
     "css" : {
-      "border-width" : 0.0,
-      "shape" : "ellipse",
-      "color" : "rgb(255,255,255)",
-      "height" : 40.0,
-      "background-color" : "rgb(0,0,0)",
-      "background-opacity" : 1.0,
-      "border-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
-      "font-family" : "Monospaced.plain",
+      "font-family" : "SansSerif.plain",
       "font-weight" : "normal",
+      "font-size" : 24,
+      "shape" : "ellipse",
       "text-valign" : "center",
       "text-halign" : "center",
-      "width" : 40.0,
+      "text-opacity" : 1.0,
+      "border-width" : 0.0,
+      "background-color" : "rgb(255,255,255)",
+      "background-opacity" : 1.0,
+      "width" : 5.0,
       "border-opacity" : 1.0,
-      "font-size" : 18,
+      "color" : "rgb(51,51,51)",
+      "border-color" : "rgb(0,0,0)",
+      "height" : 5.0,
       "content" : "data(name)"
     }
   }, {
-    "selector" : "node[ id = '5921' ]",
+    "selector" : "node[ id = '386' ]",
     "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
       "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '294' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '358' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '234' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '362' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '270' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '366' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '178' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '434' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '276' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '308' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '182' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '374' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '216' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '280' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '154' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '218' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '250' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '410' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '284' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '316' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2593' ]",
+    "css" : {
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5953' ]",
+    "selector" : "node[ id = '2499' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5923' ]",
+    "selector" : "node[ id = '2629' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5801' ]",
+    "selector" : "node[ id = '2505' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5865' ]",
+    "selector" : "node[ id = '2537' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5867' ]",
+    "selector" : "node[ id = '2569' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5869' ]",
+    "selector" : "node[ id = '2635' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5933' ]",
+    "selector" : "node[ id = '2509' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5807' ]",
+    "selector" : "node[ id = '2573' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5873' ]",
+    "selector" : "node[ id = '2575' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5905' ]",
+    "selector" : "node[ id = '2577' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5937' ]",
+    "selector" : "node[ id = '2641' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5813' ]",
+    "selector" : "node[ id = '2519' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5943' ]",
+    "selector" : "node[ id = '2489' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5849' ]",
+    "selector" : "node[ id = '2521' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5947' ]",
+    "selector" : "node[ id = '2523' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5919' ]",
+    "selector" : "node[ id = '2495' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6817' ]",
-    "css" : {
+      "background-color" : "rgb(250,159,181)",
       "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6339' ]",
-    "css" : {
-      "shape" : "roundrectangle",
-      "background-opacity" : 0.19607843137254902,
-      "width" : "-Infinity",
-      "height" : "-Infinity"
-    }
-  }, {
-    "selector" : "node[ id = '6723' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6883' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6915' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6853' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6917' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6759' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6825' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6857' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6315' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6699' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6989' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6767' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6863' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6771' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6899' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6965' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6775' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6839' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6969' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6747' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
       "height" : 60.0
     }
   }, {
     "selector" : "node:selected",
     "css" : {
-      "background-color" : "rgb(255,255,0)"
+      "background-color" : "rgb(255,0,102)"
     }
   }, {
     "selector" : "edge",
     "css" : {
+      "line-style" : "solid",
+      "opacity" : 1.0,
+      "line-color" : "rgb(183,183,183)",
+      "width" : 1.0,
+      "target-arrow-color" : "rgb(0,0,0)",
+      "content" : "",
+      "target-arrow-shape" : "none",
+      "text-opacity" : 1.0,
       "source-arrow-shape" : "none",
       "color" : "rgb(0,0,0)",
-      "line-color" : "rgb(153,153,153)",
-      "target-arrow-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
-      "width" : 2.0,
       "font-size" : 10,
-      "font-family" : "Dialog.plain",
-      "font-weight" : "normal",
-      "content" : "",
       "source-arrow-color" : "rgb(0,0,0)",
-      "line-style" : "dashed",
-      "target-arrow-shape" : "none",
-      "opacity" : 1.0
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal"
     }
   }, {
     "selector" : "edge:selected",
@@ -6036,21 +4012,21 @@ var styles = [ {
   "style" : [ {
     "selector" : "node",
     "css" : {
-      "border-width" : 2.0,
-      "shape" : "ellipse",
-      "color" : "rgb(0,0,0)",
-      "height" : 40.0,
-      "background-color" : "rgb(255,255,255)",
-      "background-opacity" : 1.0,
-      "border-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
       "font-family" : "SansSerif.plain",
       "font-weight" : "normal",
+      "font-size" : 12,
+      "shape" : "ellipse",
       "text-valign" : "center",
       "text-halign" : "center",
+      "text-opacity" : 1.0,
+      "border-width" : 2.0,
+      "background-color" : "rgb(255,255,255)",
+      "background-opacity" : 1.0,
       "width" : 60.0,
       "border-opacity" : 1.0,
-      "font-size" : 12,
+      "color" : "rgb(0,0,0)",
+      "border-color" : "rgb(0,0,0)",
+      "height" : 40.0,
       "content" : "data(shared_name)"
     }
   }, {
@@ -6066,7 +4042,7 @@ var styles = [ {
   }, {
     "selector" : "node[has_nested_network]",
     "css" : {
-      "color" : "rgb(0,102,204)"
+      "background-color" : "rgb(255,255,255)"
     }
   }, {
     "selector" : "node[has_nested_network]",
@@ -6076,382 +4052,3340 @@ var styles = [ {
   }, {
     "selector" : "node[has_nested_network]",
     "css" : {
+      "color" : "rgb(0,102,204)"
+    }
+  }, {
+    "selector" : "node[ id = '386' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '294' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '358' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '234' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '362' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '270' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '366' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '178' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '434' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '276' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '308' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '182' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '374' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '216' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '280' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '154' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '218' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '250' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '410' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '284' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '316' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2593' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2499' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2629' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2505' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2537' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2569' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2635' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2509' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2573' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2575' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2577' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2641' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2519' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2489' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2521' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2523' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2495' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node:selected",
+    "css" : {
+      "background-color" : "rgb(255,255,0)"
+    }
+  }, {
+    "selector" : "edge",
+    "css" : {
+      "line-style" : "solid",
+      "opacity" : 1.0,
+      "line-color" : "rgb(64,64,64)",
+      "width" : 1.0,
+      "target-arrow-color" : "rgb(0,0,0)",
+      "content" : "",
+      "target-arrow-shape" : "none",
+      "text-opacity" : 1.0,
+      "source-arrow-shape" : "none",
+      "color" : "rgb(0,0,0)",
+      "font-size" : 10,
+      "source-arrow-color" : "rgb(0,0,0)",
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal"
+    }
+  }, {
+    "selector" : "edge:selected",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  } ]
+}, {
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.9.1",
+  "target_cytoscapejs_version" : "~2.1",
+  "title" : "default black",
+  "style" : [ {
+    "selector" : "node",
+    "css" : {
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal",
+      "font-size" : 12,
+      "shape" : "ellipse",
+      "text-valign" : "bottom",
+      "text-halign" : "right",
+      "text-opacity" : 1.0,
+      "border-width" : 0.0,
+      "background-color" : "rgb(255,255,255)",
+      "background-opacity" : 1.0,
+      "width" : 15.0,
+      "border-opacity" : 1.0,
+      "color" : "rgb(204,204,204)",
+      "border-color" : "rgb(0,153,0)",
+      "height" : 15.0,
+      "content" : "data(name)"
+    }
+  }, {
+    "selector" : "node[ id = '386' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '294' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '358' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '234' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '362' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '270' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '366' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '178' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '434' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '276' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '308' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '182' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '374' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '216' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '280' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '154' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '218' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '250' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '410' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '284' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '316' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2593' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2499' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2629' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2505' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2537' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2569' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2635' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2509' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2573' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2575' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2577' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2641' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2519' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2489' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2521' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2523' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2495' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node:selected",
+    "css" : {
+      "background-color" : "rgb(255,255,0)"
+    }
+  }, {
+    "selector" : "edge",
+    "css" : {
+      "line-style" : "solid",
+      "opacity" : 1.0,
+      "line-color" : "rgb(0,153,0)",
+      "width" : 2.0,
+      "target-arrow-color" : "rgb(0,0,0)",
+      "content" : "",
+      "target-arrow-shape" : "none",
+      "text-opacity" : 1.0,
+      "source-arrow-shape" : "none",
+      "color" : "rgb(0,0,0)",
+      "font-size" : 10,
+      "source-arrow-color" : "rgb(0,0,0)",
+      "font-family" : "Dialog.plain",
+      "font-weight" : "normal"
+    }
+  }, {
+    "selector" : "edge:selected",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  } ]
+}, {
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.9.1",
+  "target_cytoscapejs_version" : "~2.1",
+  "title" : "Sample2",
+  "style" : [ {
+    "selector" : "node",
+    "css" : {
+      "font-family" : "Dialog.plain",
+      "font-weight" : "normal",
+      "font-size" : 20,
+      "shape" : "ellipse",
+      "text-valign" : "center",
+      "text-halign" : "right",
+      "text-opacity" : 1.0,
+      "border-width" : 15.0,
+      "background-color" : "rgb(58,127,182)",
+      "background-opacity" : 1.0,
+      "width" : 50.0,
+      "border-opacity" : 1.0,
+      "color" : "rgb(102,102,102)",
+      "border-color" : "rgb(255,255,255)",
+      "height" : 50.0,
+      "content" : "data(name)"
+    }
+  }, {
+    "selector" : "node[ id = '386' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '294' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '358' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '234' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '362' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '270' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '366' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '178' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '434' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '276' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '308' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '182' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '374' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '216' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '280' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '154' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '218' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '250' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '410' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '284' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '316' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2593' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2499' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2629' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2505' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2537' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2569' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2635' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2509' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2573' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2575' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2577' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2641' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2519' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2489' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2521' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2523' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2495' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node:selected",
+    "css" : {
+      "background-color" : "rgb(255,255,0)"
+    }
+  }, {
+    "selector" : "edge",
+    "css" : {
+      "line-style" : "solid",
+      "opacity" : 1.0,
+      "line-color" : "rgb(255,255,255)",
+      "width" : 20.0,
+      "target-arrow-color" : "rgb(0,0,0)",
+      "content" : "",
+      "target-arrow-shape" : "none",
+      "text-opacity" : 1.0,
+      "source-arrow-shape" : "none",
+      "color" : "rgb(0,0,0)",
+      "font-size" : 10,
+      "source-arrow-color" : "rgb(0,0,0)",
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal"
+    }
+  }, {
+    "selector" : "edge:selected",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  } ]
+}, {
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.9.1",
+  "target_cytoscapejs_version" : "~2.1",
+  "title" : "Solid",
+  "style" : [ {
+    "selector" : "node",
+    "css" : {
+      "font-family" : "Dialog.plain",
+      "font-weight" : "normal",
+      "font-size" : 14,
+      "shape" : "ellipse",
+      "text-valign" : "center",
+      "text-halign" : "center",
+      "text-opacity" : 1.0,
+      "border-width" : 0.0,
+      "background-color" : "rgb(102,102,102)",
+      "background-opacity" : 1.0,
+      "width" : 40.0,
+      "border-opacity" : 1.0,
+      "color" : "rgb(0,0,0)",
+      "border-color" : "rgb(0,0,0)",
+      "height" : 40.0,
+      "content" : "data(name)"
+    }
+  }, {
+    "selector" : "node[ id = '386' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '294' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '358' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '234' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '362' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '270' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '366' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '178' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '434' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '276' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '308' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '182' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '374' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '216' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '280' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '154' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '218' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '250' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '410' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '284' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '316' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2593' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2499' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2629' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2505' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2537' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2569' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2635' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2509' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2573' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2575' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2577' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2641' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2519' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2489' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2521' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2523' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2495' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node:selected",
+    "css" : {
+      "background-color" : "rgb(255,255,0)"
+    }
+  }, {
+    "selector" : "edge",
+    "css" : {
+      "line-style" : "solid",
+      "opacity" : 1.0,
+      "line-color" : "rgb(204,204,204)",
+      "width" : 12.0,
+      "target-arrow-color" : "rgb(0,0,0)",
+      "target-arrow-shape" : "none",
+      "text-opacity" : 1.0,
+      "source-arrow-shape" : "none",
+      "color" : "rgb(0,0,0)",
+      "font-size" : 10,
+      "source-arrow-color" : "rgb(0,0,0)",
+      "font-family" : "Dialog.plain",
+      "font-weight" : "normal",
+      "content" : "data(interaction)"
+    }
+  }, {
+    "selector" : "edge:selected",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  } ]
+}, {
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.9.1",
+  "target_cytoscapejs_version" : "~2.1",
+  "title" : "Universe",
+  "style" : [ {
+    "selector" : "node",
+    "css" : {
+      "font-family" : "Monospaced.plain",
+      "font-weight" : "normal",
+      "font-size" : 18,
+      "shape" : "ellipse",
+      "text-valign" : "center",
+      "text-halign" : "center",
+      "text-opacity" : 1.0,
+      "border-width" : 0.0,
+      "background-color" : "rgb(0,0,0)",
+      "background-opacity" : 1.0,
+      "width" : 40.0,
+      "border-opacity" : 1.0,
+      "color" : "rgb(255,255,255)",
+      "border-color" : "rgb(0,0,0)",
+      "height" : 40.0,
+      "content" : "data(name)"
+    }
+  }, {
+    "selector" : "node[ id = '386' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '294' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '358' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '234' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '362' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '270' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '366' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '178' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '434' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '276' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '308' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '182' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '374' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '216' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '280' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '154' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '218' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '250' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '410' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '284' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '316' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2593' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2499' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2629' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2505' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2537' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2569' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2635' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2509' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2573' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2575' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2577' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2641' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2519' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2489' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2521' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2523' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2495' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node:selected",
+    "css" : {
+      "background-color" : "rgb(255,255,0)"
+    }
+  }, {
+    "selector" : "edge",
+    "css" : {
+      "line-style" : "dashed",
+      "opacity" : 1.0,
+      "line-color" : "rgb(153,153,153)",
+      "width" : 2.0,
+      "target-arrow-color" : "rgb(0,0,0)",
+      "content" : "",
+      "target-arrow-shape" : "none",
+      "text-opacity" : 1.0,
+      "source-arrow-shape" : "none",
+      "color" : "rgb(0,0,0)",
+      "font-size" : 10,
+      "source-arrow-color" : "rgb(0,0,0)",
+      "font-family" : "Dialog.plain",
+      "font-weight" : "normal"
+    }
+  }, {
+    "selector" : "edge:selected",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  } ]
+}, {
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.9.1",
+  "target_cytoscapejs_version" : "~2.1",
+  "title" : "Sample3",
+  "style" : [ {
+    "selector" : "node",
+    "css" : {
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal",
+      "font-size" : 14,
+      "shape" : "ellipse",
+      "text-valign" : "bottom",
+      "text-halign" : "right",
+      "text-opacity" : 1.0,
+      "border-width" : 8.0,
+      "background-color" : "rgb(61,154,255)",
+      "background-opacity" : 1.0,
+      "width" : 20.0,
+      "border-opacity" : 1.0,
+      "color" : "rgb(206,206,206)",
+      "border-color" : "rgb(255,255,255)",
+      "height" : 20.0,
+      "content" : "data(name)"
+    }
+  }, {
+    "selector" : "node[ id = '386' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '294' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '358' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '234' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '362' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '270' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '366' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '178' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '434' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '276' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '308' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '182' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '374' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '216' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '280' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '154' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '218' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '250' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '410' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '284' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '316' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2593' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2499' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2629' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2505' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2537' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2569' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2635' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2509' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2573' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2575' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2577' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2641' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2519' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2489' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2521' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2523' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2495' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(37,37,37)",
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node:selected",
+    "css" : {
+      "background-color" : "rgb(255,255,0)"
+    }
+  }, {
+    "selector" : "edge",
+    "css" : {
+      "line-style" : "solid",
+      "opacity" : 1.0,
+      "line-color" : "rgb(255,255,255)",
+      "width" : 2.0,
+      "target-arrow-color" : "rgb(0,0,0)",
+      "content" : "",
+      "target-arrow-shape" : "none",
+      "text-opacity" : 1.0,
+      "source-arrow-shape" : "none",
+      "color" : "rgb(0,0,0)",
+      "font-size" : 10,
+      "source-arrow-color" : "rgb(0,0,0)",
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal"
+    }
+  }, {
+    "selector" : "edge:selected",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  } ]
+}, {
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.9.1",
+  "target_cytoscapejs_version" : "~2.1",
+  "title" : "BioPAX",
+  "style" : [ {
+    "selector" : "node",
+    "css" : {
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal",
+      "font-size" : 12,
+      "shape" : "ellipse",
+      "text-valign" : "center",
+      "text-halign" : "center",
+      "text-opacity" : 1.0,
+      "border-width" : 2.0,
+      "background-color" : "rgb(255,255,255)",
+      "background-opacity" : 1.0,
+      "width" : 20.0,
+      "border-opacity" : 1.0,
+      "color" : "rgb(0,0,0)",
+      "border-color" : "rgb(0,102,102)",
+      "height" : 20.0,
+      "content" : "data(name)"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'SimplePhysicalEntity']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Rna']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'BiochemicalReaction']",
+    "css" : {
+      "shape" : "rectangle"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'GeneticInteraction']",
+    "css" : {
+      "shape" : "rectangle"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Interaction']",
+    "css" : {
+      "shape" : "rectangle"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'TransportWithBiochemicalReaction']",
+    "css" : {
+      "shape" : "rectangle"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'ComplexAssembly']",
+    "css" : {
+      "shape" : "rectangle"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Conversion']",
+    "css" : {
+      "shape" : "rectangle"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Protein']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'RnaRegion']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Complex']",
+    "css" : {
+      "shape" : "diamond"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Degradation']",
+    "css" : {
+      "shape" : "rectangle"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Control']",
+    "css" : {
+      "shape" : "triangle"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'TemplateReactionRegulation']",
+    "css" : {
+      "shape" : "triangle"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'DnaRegion']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'PhysicalEntity']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'SmallMolecule']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Dna']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Modulation']",
+    "css" : {
+      "shape" : "triangle"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'MolecularInteraction']",
+    "css" : {
+      "shape" : "rectangle"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'TemplateReaction']",
+    "css" : {
+      "shape" : "rectangle"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Catalysis']",
+    "css" : {
+      "shape" : "triangle"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Transport']",
+    "css" : {
+      "shape" : "rectangle"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Protein-phosphorylated']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Complex']",
+    "css" : {
       "background-color" : "rgb(255,255,255)"
     }
   }, {
-    "selector" : "node[ id = '5921' ]",
+    "selector" : "node[BIOPAX_TYPE = 'Complex']",
     "css" : {
+      "border-color" : "rgb(0,102,102)"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'BiochemicalReaction']",
+    "css" : {
+      "width" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'GeneticInteraction']",
+    "css" : {
+      "width" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Interaction']",
+    "css" : {
+      "width" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'TransportWithBiochemicalReaction']",
+    "css" : {
+      "width" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'ComplexAssembly']",
+    "css" : {
+      "width" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Conversion']",
+    "css" : {
+      "width" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Complex']",
+    "css" : {
+      "width" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Degradation']",
+    "css" : {
+      "width" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Control']",
+    "css" : {
+      "width" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'TemplateReactionRegulation']",
+    "css" : {
+      "width" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Modulation']",
+    "css" : {
+      "width" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'MolecularInteraction']",
+    "css" : {
+      "width" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'TemplateReaction']",
+    "css" : {
+      "width" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Catalysis']",
+    "css" : {
+      "width" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Transport']",
+    "css" : {
+      "width" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'BiochemicalReaction']",
+    "css" : {
+      "height" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'GeneticInteraction']",
+    "css" : {
+      "height" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Interaction']",
+    "css" : {
+      "height" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'TransportWithBiochemicalReaction']",
+    "css" : {
+      "height" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'ComplexAssembly']",
+    "css" : {
+      "height" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Conversion']",
+    "css" : {
+      "height" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Complex']",
+    "css" : {
+      "height" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Degradation']",
+    "css" : {
+      "height" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Control']",
+    "css" : {
+      "height" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'TemplateReactionRegulation']",
+    "css" : {
+      "height" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Modulation']",
+    "css" : {
+      "height" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'MolecularInteraction']",
+    "css" : {
+      "height" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'TemplateReaction']",
+    "css" : {
+      "height" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Catalysis']",
+    "css" : {
+      "height" : 13.4
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Transport']",
+    "css" : {
+      "height" : 13.4
+    }
+  }, {
+    "selector" : "node[ id = '386' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
       "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '294' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '358' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '234' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '362' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '270' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '366' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '178' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '434' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '276' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '308' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '182' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '374' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '216' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '280' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '154' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '218' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '250' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '410' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '284' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '316' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2593' ]",
+    "css" : {
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5953' ]",
+    "selector" : "node[ id = '2499' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5923' ]",
+    "selector" : "node[ id = '2629' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5801' ]",
+    "selector" : "node[ id = '2505' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5865' ]",
+    "selector" : "node[ id = '2537' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5867' ]",
+    "selector" : "node[ id = '2569' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5869' ]",
+    "selector" : "node[ id = '2635' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5933' ]",
+    "selector" : "node[ id = '2509' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5807' ]",
+    "selector" : "node[ id = '2573' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5873' ]",
+    "selector" : "node[ id = '2575' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5905' ]",
+    "selector" : "node[ id = '2577' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5937' ]",
+    "selector" : "node[ id = '2641' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5813' ]",
+    "selector" : "node[ id = '2519' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5943' ]",
+    "selector" : "node[ id = '2489' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5849' ]",
+    "selector" : "node[ id = '2521' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5947' ]",
+    "selector" : "node[ id = '2523' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5919' ]",
+    "selector" : "node[ id = '2495' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6817' ]",
-    "css" : {
+      "background-color" : "rgb(250,159,181)",
       "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6339' ]",
-    "css" : {
-      "shape" : "roundrectangle",
-      "background-opacity" : 0.19607843137254902,
-      "width" : "-Infinity",
-      "height" : "-Infinity"
-    }
-  }, {
-    "selector" : "node[ id = '6723' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6883' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6915' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6853' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6917' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6759' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6825' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6857' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6315' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6699' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6989' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6767' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6863' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6771' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6899' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6965' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6775' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6839' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6969' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6747' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
       "height" : 60.0
     }
   }, {
@@ -6462,20 +7396,100 @@ var styles = [ {
   }, {
     "selector" : "edge",
     "css" : {
+      "line-style" : "solid",
+      "opacity" : 1.0,
+      "line-color" : "rgb(64,64,64)",
+      "width" : 1.0,
+      "target-arrow-color" : "rgb(64,64,64)",
+      "content" : "",
+      "target-arrow-shape" : "none",
+      "text-opacity" : 1.0,
       "source-arrow-shape" : "none",
       "color" : "rgb(0,0,0)",
-      "line-color" : "rgb(64,64,64)",
-      "target-arrow-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
-      "width" : 1.0,
       "font-size" : 10,
+      "source-arrow-color" : "rgb(64,64,64)",
       "font-family" : "SansSerif.plain",
-      "font-weight" : "normal",
-      "content" : "",
-      "source-arrow-color" : "rgb(0,0,0)",
-      "line-style" : "solid",
-      "target-arrow-shape" : "none",
-      "opacity" : 1.0
+      "font-weight" : "normal"
+    }
+  }, {
+    "selector" : "edge[interaction = 'INHIBITION_NONCOMPETITIVE']",
+    "css" : {
+      "target-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[interaction = 'INHIBITION_OTHER']",
+    "css" : {
+      "target-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[interaction = 'ACTIVATION']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[interaction = 'INHIBITION_UNCOMPETITIVE']",
+    "css" : {
+      "target-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[interaction = 'cofactor']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[interaction = 'ACTIVATION_ALLOSTERIC']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[interaction = 'right']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[interaction = 'INHIBITION_ALLOSTERIC']",
+    "css" : {
+      "target-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[interaction = 'controlled']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[interaction = 'contains']",
+    "css" : {
+      "target-arrow-shape" : "circle"
+    }
+  }, {
+    "selector" : "edge[interaction = 'INHIBITION']",
+    "css" : {
+      "target-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[interaction = 'INHIBITION_UNKMECH']",
+    "css" : {
+      "target-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[interaction = 'INHIBITION_IRREVERSIBLE']",
+    "css" : {
+      "target-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[interaction = 'INHIBITION_COMPETITIVE']",
+    "css" : {
+      "target-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[interaction = 'ACTIVATION_UNKMECH']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[interaction = 'ACTIVATION_NONALLOSTERIC']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
     }
   }, {
     "selector" : "edge:selected",
@@ -6487,401 +7501,415 @@ var styles = [ {
   "format_version" : "1.0",
   "generated_by" : "cytoscape-3.9.1",
   "target_cytoscapejs_version" : "~2.1",
-  "title" : "Minimal",
+  "title" : "size_rank",
   "style" : [ {
     "selector" : "node",
     "css" : {
-      "border-width" : 0.0,
-      "shape" : "rectangle",
-      "color" : "rgb(51,51,51)",
-      "height" : 42.0,
-      "background-color" : "rgb(255,255,255)",
-      "background-opacity" : 1.0,
-      "border-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
       "font-family" : "SansSerif.plain",
       "font-weight" : "normal",
+      "font-size" : 9,
+      "shape" : "rectangle",
       "text-valign" : "center",
       "text-halign" : "center",
-      "width" : 42.0,
+      "text-opacity" : 1.0,
+      "border-width" : 0.0,
+      "background-color" : "rgb(204,204,255)",
+      "background-opacity" : 1.0,
+      "width" : 12.0,
       "border-opacity" : 1.0,
-      "font-size" : 9,
+      "color" : "rgb(51,51,51)",
+      "border-color" : "rgb(0,0,0)",
+      "height" : 12.0,
       "content" : "data(name)"
     }
   }, {
-    "selector" : "node[ id = '5921' ]",
+    "selector" : "node[ id = '386' ]",
     "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
       "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '294' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '358' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '234' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '362' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '270' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '366' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '178' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '434' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '276' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '308' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '182' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '374' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '216' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '280' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '154' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '218' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '250' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '410' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '284' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '316' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2593' ]",
+    "css" : {
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5953' ]",
+    "selector" : "node[ id = '2499' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5923' ]",
+    "selector" : "node[ id = '2629' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5801' ]",
+    "selector" : "node[ id = '2505' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5865' ]",
+    "selector" : "node[ id = '2537' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5867' ]",
+    "selector" : "node[ id = '2569' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5869' ]",
+    "selector" : "node[ id = '2635' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5933' ]",
+    "selector" : "node[ id = '2509' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5807' ]",
+    "selector" : "node[ id = '2573' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5873' ]",
+    "selector" : "node[ id = '2575' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5905' ]",
+    "selector" : "node[ id = '2577' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5937' ]",
+    "selector" : "node[ id = '2641' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5813' ]",
+    "selector" : "node[ id = '2519' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5943' ]",
+    "selector" : "node[ id = '2489' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5849' ]",
+    "selector" : "node[ id = '2521' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5947' ]",
+    "selector" : "node[ id = '2523' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5919' ]",
+    "selector" : "node[ id = '2495' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6817' ]",
-    "css" : {
+      "background-color" : "rgb(250,159,181)",
       "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6339' ]",
-    "css" : {
-      "shape" : "roundrectangle",
-      "background-opacity" : 0.19607843137254902,
-      "width" : "-Infinity",
-      "height" : "-Infinity"
-    }
-  }, {
-    "selector" : "node[ id = '6723' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6883' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6915' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6853' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6917' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6759' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6825' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6857' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6315' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6699' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6989' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6767' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6863' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6771' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6899' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6965' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6775' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6839' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6969' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6747' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
       "height" : 60.0
     }
   }, {
@@ -6892,20 +7920,20 @@ var styles = [ {
   }, {
     "selector" : "edge",
     "css" : {
+      "line-style" : "solid",
+      "opacity" : 1.0,
+      "line-color" : "rgb(76,76,76)",
+      "width" : 2.0,
+      "target-arrow-color" : "rgb(0,0,0)",
+      "content" : "",
+      "target-arrow-shape" : "none",
+      "text-opacity" : 1.0,
       "source-arrow-shape" : "none",
       "color" : "rgb(0,0,0)",
-      "line-color" : "rgb(76,76,76)",
-      "target-arrow-color" : "rgb(0,0,0)",
-      "text-opacity" : 1.0,
-      "width" : 2.0,
       "font-size" : 10,
-      "font-family" : "SansSerif.plain",
-      "font-weight" : "normal",
-      "content" : "",
       "source-arrow-color" : "rgb(0,0,0)",
-      "line-style" : "solid",
-      "target-arrow-shape" : "none",
-      "opacity" : 1.0
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal"
     }
   }, {
     "selector" : "edge:selected",
@@ -6917,425 +7945,667 @@ var styles = [ {
   "format_version" : "1.0",
   "generated_by" : "cytoscape-3.9.1",
   "target_cytoscapejs_version" : "~2.1",
-  "title" : "Marquee",
+  "title" : "BioPAX_SIF",
   "style" : [ {
     "selector" : "node",
     "css" : {
-      "border-width" : 10.0,
-      "shape" : "ellipse",
-      "color" : "rgb(102,102,102)",
-      "height" : 20.0,
-      "background-color" : "rgb(0,204,255)",
-      "background-opacity" : 1.0,
-      "border-color" : "rgb(255,255,255)",
-      "text-opacity" : 1.0,
       "font-family" : "SansSerif.plain",
       "font-weight" : "normal",
-      "text-valign" : "bottom",
-      "text-halign" : "center",
-      "width" : 20.0,
-      "border-opacity" : 1.0,
       "font-size" : 12,
+      "shape" : "ellipse",
+      "text-valign" : "center",
+      "text-halign" : "center",
+      "text-opacity" : 1.0,
+      "border-width" : 2.0,
+      "background-color" : "rgb(255,153,153)",
+      "background-opacity" : 0.49019607843137253,
+      "width" : 60.0,
+      "border-opacity" : 1.0,
+      "color" : "rgb(0,0,0)",
+      "border-color" : "rgb(0,0,0)",
+      "height" : 40.0,
       "content" : "data(name)"
     }
   }, {
-    "selector" : "node[ id = '5921' ]",
+    "selector" : "node[BIOPAX_TYPE = 'Complex']",
     "css" : {
+      "shape" : "hexagon"
+    }
+  }, {
+    "selector" : "node[BIOPAX_TYPE = 'Complex']",
+    "css" : {
+      "background-color" : "rgb(153,204,255)"
+    }
+  }, {
+    "selector" : "node[ id = '386' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
       "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '294' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '358' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '234' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '362' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '270' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '366' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '178' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '434' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '276' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '308' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '182' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '374' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '216' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '280' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '154' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '218' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '250' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '410' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '284' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '316' ]",
+    "css" : {
+      "font-size" : 12,
+      "shape" : "octagon",
+      "color" : "rgb(255,255,255)",
+      "background-color" : "rgb(37,37,37)",
+      "width" : 60.0,
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '2593' ]",
+    "css" : {
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5953' ]",
+    "selector" : "node[ id = '2499' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5923' ]",
+    "selector" : "node[ id = '2629' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5801' ]",
+    "selector" : "node[ id = '2505' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5865' ]",
+    "selector" : "node[ id = '2537' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5867' ]",
+    "selector" : "node[ id = '2569' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5869' ]",
+    "selector" : "node[ id = '2635' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5933' ]",
+    "selector" : "node[ id = '2509' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5807' ]",
+    "selector" : "node[ id = '2573' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5873' ]",
+    "selector" : "node[ id = '2575' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5905' ]",
+    "selector" : "node[ id = '2577' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5937' ]",
+    "selector" : "node[ id = '2641' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5813' ]",
+    "selector" : "node[ id = '2519' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5943' ]",
+    "selector" : "node[ id = '2489' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5849' ]",
+    "selector" : "node[ id = '2521' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5947' ]",
+    "selector" : "node[ id = '2523' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
+      "background-color" : "rgb(250,159,181)",
+      "width" : 60.0,
       "height" : 60.0
     }
   }, {
-    "selector" : "node[ id = '5919' ]",
+    "selector" : "node[ id = '2495' ]",
     "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(247,104,161)",
+      "font-size" : 12,
       "shape" : "octagon",
       "color" : "rgb(37,37,37)",
-      "font-size" : 12,
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6817' ]",
-    "css" : {
+      "background-color" : "rgb(250,159,181)",
       "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6849' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6339' ]",
-    "css" : {
-      "shape" : "roundrectangle",
-      "background-opacity" : 0.19607843137254902,
-      "width" : "-Infinity",
-      "height" : "-Infinity"
-    }
-  }, {
-    "selector" : "node[ id = '6723' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6883' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6915' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6853' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6917' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6759' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6825' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6857' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6315' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6699' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6989' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6767' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6863' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6771' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6899' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6965' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6775' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6839' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6969' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
-      "height" : 60.0
-    }
-  }, {
-    "selector" : "node[ id = '6747' ]",
-    "css" : {
-      "width" : 60.0,
-      "background-color" : "rgb(0,0,0)",
-      "shape" : "octagon",
-      "color" : "rgb(255,255,255)",
       "height" : 60.0
     }
   }, {
     "selector" : "node:selected",
     "css" : {
-      "background-color" : "rgb(255,0,102)"
+      "background-color" : "rgb(255,255,0)"
     }
   }, {
     "selector" : "edge",
     "css" : {
-      "source-arrow-shape" : "none",
-      "color" : "rgb(102,102,102)",
-      "line-color" : "rgb(255,255,255)",
-      "target-arrow-color" : "rgb(255,255,255)",
-      "text-opacity" : 1.0,
-      "width" : 2.0,
-      "font-size" : 8,
-      "font-family" : "SansSerif.plain",
-      "font-weight" : "normal",
-      "source-arrow-color" : "rgb(255,255,255)",
-      "line-style" : "dashed",
-      "target-arrow-shape" : "triangle",
+      "line-style" : "solid",
       "opacity" : 1.0,
-      "content" : "data(interaction)"
+      "line-color" : "rgb(0,0,0)",
+      "width" : 4.0,
+      "target-arrow-color" : "rgb(0,0,0)",
+      "content" : "",
+      "target-arrow-shape" : "none",
+      "text-opacity" : 1.0,
+      "source-arrow-shape" : "none",
+      "color" : "rgb(0,0,0)",
+      "font-size" : 10,
+      "source-arrow-color" : "rgb(0,0,0)",
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal"
+    }
+  }, {
+    "selector" : "edge[interaction = 'interacts-with']",
+    "css" : {
+      "line-color" : "rgb(0,85,0)",
+      "target-arrow-color" : "rgb(0,85,0)",
+      "source-arrow-color" : "rgb(0,85,0)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'chemical-affects']",
+    "css" : {
+      "line-color" : "rgb(240,144,0)",
+      "target-arrow-color" : "rgb(240,144,0)",
+      "source-arrow-color" : "rgb(240,144,0)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'controls-state-change-of']",
+    "css" : {
+      "line-color" : "rgb(0,0,192)",
+      "target-arrow-color" : "rgb(0,0,192)",
+      "source-arrow-color" : "rgb(0,0,192)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'controls-transport-of']",
+    "css" : {
+      "line-color" : "rgb(112,0,0)",
+      "target-arrow-color" : "rgb(112,0,0)",
+      "source-arrow-color" : "rgb(112,0,0)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'consumption-controled-by']",
+    "css" : {
+      "line-color" : "rgb(255,51,0)",
+      "target-arrow-color" : "rgb(255,51,0)",
+      "source-arrow-color" : "rgb(255,51,0)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'reacts-with']",
+    "css" : {
+      "line-color" : "rgb(0,255,0)",
+      "target-arrow-color" : "rgb(0,255,0)",
+      "source-arrow-color" : "rgb(0,255,0)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'neighbor-of']",
+    "css" : {
+      "line-color" : "rgb(0,170,0)",
+      "target-arrow-color" : "rgb(0,170,0)",
+      "source-arrow-color" : "rgb(0,170,0)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'controls-expression-of']",
+    "css" : {
+      "line-color" : "rgb(0,160,160)",
+      "target-arrow-color" : "rgb(0,160,160)",
+      "source-arrow-color" : "rgb(0,160,160)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'controls-phosphorylation-of']",
+    "css" : {
+      "line-color" : "rgb(0,0,255)",
+      "target-arrow-color" : "rgb(0,0,255)",
+      "source-arrow-color" : "rgb(0,0,255)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'controls-transport-of-chemical']",
+    "css" : {
+      "line-color" : "rgb(160,0,0)",
+      "target-arrow-color" : "rgb(160,0,0)",
+      "source-arrow-color" : "rgb(160,0,0)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'used-to-produce']",
+    "css" : {
+      "line-color" : "rgb(247,85,0)",
+      "target-arrow-color" : "rgb(247,85,0)",
+      "source-arrow-color" : "rgb(247,85,0)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'in-complex-with']",
+    "css" : {
+      "line-color" : "rgb(240,0,160)",
+      "target-arrow-color" : "rgb(240,0,160)",
+      "source-arrow-color" : "rgb(240,0,160)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'controls-production-of']",
+    "css" : {
+      "line-color" : "rgb(0,204,240)",
+      "target-arrow-color" : "rgb(0,204,240)",
+      "source-arrow-color" : "rgb(0,204,240)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'catalysis-precedes']",
+    "css" : {
+      "line-color" : "rgb(112,0,160)",
+      "target-arrow-color" : "rgb(112,0,160)",
+      "source-arrow-color" : "rgb(112,0,160)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'interacts-with']",
+    "css" : {
+      "line-color" : "rgb(0,85,0)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'chemical-affects']",
+    "css" : {
+      "line-color" : "rgb(240,144,0)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'controls-state-change-of']",
+    "css" : {
+      "line-color" : "rgb(0,0,192)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'controls-transport-of']",
+    "css" : {
+      "line-color" : "rgb(112,0,0)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'consumption-controled-by']",
+    "css" : {
+      "line-color" : "rgb(255,51,0)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'reacts-with']",
+    "css" : {
+      "line-color" : "rgb(0,255,0)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'neighbor-of']",
+    "css" : {
+      "line-color" : "rgb(0,170,0)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'controls-expression-of']",
+    "css" : {
+      "line-color" : "rgb(0,160,160)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'controls-phosphorylation-of']",
+    "css" : {
+      "line-color" : "rgb(0,0,255)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'controls-transport-of-chemical']",
+    "css" : {
+      "line-color" : "rgb(160,0,0)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'used-to-produce']",
+    "css" : {
+      "line-color" : "rgb(247,85,0)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'in-complex-with']",
+    "css" : {
+      "line-color" : "rgb(240,0,160)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'controls-production-of']",
+    "css" : {
+      "line-color" : "rgb(0,204,240)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'catalysis-precedes']",
+    "css" : {
+      "line-color" : "rgb(112,0,160)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'controls-expression-of']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[interaction = 'chemical-affects']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[interaction = 'controls-state-change-of']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[interaction = 'controls-phosphorylation-of']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[interaction = 'controls-transport-of-chemical']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[interaction = 'used-to-produce']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[interaction = 'controls-transport-of']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[interaction = 'consumption-controled-by']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[interaction = 'controls-production-of']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[interaction = 'catalysis-precedes']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
     }
   }, {
     "selector" : "edge:selected",
